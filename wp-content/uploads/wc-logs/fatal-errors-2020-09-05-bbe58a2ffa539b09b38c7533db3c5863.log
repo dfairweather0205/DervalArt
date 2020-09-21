@@ -1,0 +1,13 @@
+2020-09-05T02:24:35+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in /home/dfairwea/public_html/wp-content/themes/anotte-wp/functions.php on line 1170
+
+2020-09-05T06:27:40+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on null in /home/dfairwea/public_html/wp-content/themes/anotte-wp/functions.php:1181
+Stack trace:
+#0 /home/dfairwea/public_html/wp-includes/shortcodes.php(343): right_page(Array, '', 'right_page')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/dfairwea/public_html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(right_...', 'do_shortcode_ta...', '[right_page url...')
+#3 /home/dfairwea/public_html/wp-content/themes/anotte-wp/woocommerce/content-single-product.php(59): do_shortcode('[right_page url...')
+#4 /home/dfairwea/public_html/wp-includes/template.php(732): require('/home/dfairwea/...')
+#5 /home/dfairwea/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(283): load_template('/home/dfairwea/...', false)
+#6 /home/dfairwea/public_html/wp-content/themes/anotte-wp/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /home/dfairwea/public_html/wp-includes/templ in /home/dfairwea/public_html/wp-content/themes/anotte-wp/functions.php on line 1181
+

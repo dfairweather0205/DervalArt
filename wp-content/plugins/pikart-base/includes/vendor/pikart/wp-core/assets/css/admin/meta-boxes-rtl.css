@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    Meta Boxes
+    RTL
+\*------------------------------------*/
+.postbox .meta-box-custom-field__label {
+    margin-right: 0;
+    margin-left: 20px; }
+
+.pikart-gallery-reset {
+    margin-right: 10px;
+    margin-left: 0; }
+
+.meta-box-tabs {
+    border-right: none;
+    border-left: 1px solid #e2e4e7; }
+
+@media screen and (max-width: 39.9375em) {
+    .meta-box-tabs li a {
+        margin-right: 0;
+        margin-left: 6px; } }
+
+.meta-box-tabs li[class*='active']:before {
+    right: 0;
+    left: auto; }
+
+.meta-box-tab__content .meta-box-custom-field input[type='checkbox']:checked:before {
+    margin: -4px -5px 0 0; }

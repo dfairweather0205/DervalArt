@@ -1,0 +1,22 @@
+2020-08-21T01:54:07+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::product_id() in /home/dfairwea/public_html/wp-content/themes/anotte-wp/woocommerce/myaccount/orders.php:44
+Stack trace:
+#0 /home/dfairwea/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /home/dfairwea/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3121): wc_get_template('myaccount/order...', Array)
+#2 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(287): woocommerce_account_orders(1)
+#3 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/dfairwea/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/dfairwea/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3070): do_action('woocommerce_acc...', '')
+#6 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#7 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(311):  in /home/dfairwea/public_html/wp-content/themes/anotte-wp/woocommerce/myaccount/orders.php on line 44
+
+2020-08-21T01:54:09+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::product_id() in /home/dfairwea/public_html/wp-content/themes/anotte-wp/woocommerce/myaccount/orders.php:44
+Stack trace:
+#0 /home/dfairwea/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /home/dfairwea/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3121): wc_get_template('myaccount/order...', Array)
+#2 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(287): woocommerce_account_orders(1)
+#3 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/dfairwea/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/dfairwea/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3070): do_action('woocommerce_acc...', '')
+#6 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#7 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(311):  in /home/dfairwea/public_html/wp-content/themes/anotte-wp/woocommerce/myaccount/orders.php on line 44
+

@@ -1,0 +1,23 @@
+.gutenberg__editor .edit-post-meta-boxes-area .postbox
+{
+    background-color: #edeff0;
+}
+
+.gutenberg__editor .edit-post-meta-boxes-area .postbox .inside
+{
+    background-color: #fff;
+    border-left: 1px solid #edeff0;
+    border-right: 1px solid #edeff0;
+    margin-top: 0 !important;
+}
+
+.gutenberg__editor .edit-post-meta-boxes-area .postbox .form-table
+{
+    margin-top: 0;
+}
+
+#post_header_content
+{
+    width: 100%;
+    height: 150px;
+}

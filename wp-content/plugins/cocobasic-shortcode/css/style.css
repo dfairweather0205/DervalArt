@@ -1,0 +1,757 @@
+
+
+/* ===================================
+    1. Global CSS
+====================================== */
+.big-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 45px;    
+    font-size: 98px;
+    line-height: 110%;    
+}
+
+.medium-text {
+    font-size: 22px;
+    line-height: 40px;
+    color: #939393;
+}
+
+.info-code-title {
+    font-size: 10px;
+    color: #000;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    line-height: 15px;    
+}
+
+.info-code-content, 
+.info-code-content a {
+    color: #939393;
+}
+
+.title-description-up {
+    font-size: 12px;
+    color: #a0a0a0;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 6px; 
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+.one_half.margin-0 {
+    width: 50%;
+}
+
+.one_third.margin-0 {
+    width: calc(100% / 3);
+}
+
+.two_third.margin-0 {
+    width: calc(100% / 3 * 2);
+}
+
+.one_fourth.margin-0 {
+    width: 25%;
+}
+
+.three_fourth.margin-0 {
+    width: 75%;
+}
+
+a.socail-text {
+    margin-right: 15px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.cfh {
+    margin-top: -100px;
+}
+
+/* ===================================
+    2. Menu Text CSS
+====================================== */
+
+.menu-text {
+    font-family: 'Playfair Display',serif;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.menu-right-text .menu-text a {
+    color: #b6df1e;
+}
+
+.menu-right-text .menu-text a:hover {
+    color: #acacac;
+}
+
+p.menu-text-title {
+    color: #b6df1e;
+    font-size: 13px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.menu-right-text {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.menu-right-text a {
+    color: #fff;
+}
+
+
+
+/* ===================================
+    3. Single Portfolio CSS
+====================================== */
+
+.portfolio-content {
+    margin-bottom: 100px;    
+}
+
+.has-horizontal-slider .portfolio-content {
+    margin-bottom: 0;    
+}
+
+
+/* ===================================
+    4. Gallery CSS
+====================================== */
+
+.coco-gallery-item {
+    float: left;
+    height: calc(50vh - 45px);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.coco-image-gallery {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.coco-image-gallery:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.site-wrapper .coco-gallery-item img {
+    height: 100%;
+    transition: all .3s ease;
+}
+
+.gallery-item-text {
+    position: absolute;
+    bottom: -20px;
+    opacity: 0;
+    background-color: #b6df1e;
+    color: #fff;
+    padding: 10px;
+    transition: all .3s ease;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.coco-gallery-item:hover .gallery-item-text {
+    opacity: 1;
+    bottom: 0;
+}
+
+.black-white li.coco-gallery-item img, 
+li.coco-gallery-item.b-w img {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);    
+}
+
+.black-white li.coco-gallery-item:hover img {
+    -webkit-filter: grayscale(0); 
+    filter: grayscale(0);
+}
+
+@media screen and (min-width: 1024px) {
+    .split-gallery {
+        clear: left;
+    }
+}
+
+
+/* ===================================
+    5. Page Split CSS
+====================================== */
+
+.page-split-right {
+    width: calc(50% - 100px);
+    height: 100%;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-split-left {
+    width: calc(50vw - 300px);
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.site-wrapper img.split-image {
+    display: none;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* ===================================
+   6. Image PopUp (PreetyPhoto) CSS
+====================================== */
+
+div.pp_default .pp_loaderIcon {
+    display: none !important;
+}
+
+div.pp_default a.pp_arrow_previous {
+    background-image: url(../images/nav_left.png);
+    background-size: 20px 20px;    
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999999px;
+    transition: transform .3s ease;
+}
+
+div.pp_default a.pp_arrow_next {
+    background-image: url(../images/nav_right.png);
+    background-size: 20px 20px;    
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -99999999px;
+    transition: transform .3s ease;
+}
+
+div.pp_default a.pp_arrow_previous:hover {
+    transform: translateX(-5px);
+}
+
+div.pp_default a.pp_arrow_next:hover {
+    transform: translateX(5px);
+}
+
+div.pp_default .pp_close {
+    background-image: url(../images/close.png);
+    background-size: 30px 30px;
+    margin-top: 5px;
+    text-indent: -99999999px;
+    font-size: 0;
+    line-height: 0;    
+}
+
+div.pp_default .pp_next:hover {
+    background: url(../images/nav_right.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 20px;
+}
+
+div.pp_default .pp_previous:hover {
+    background: url(../images/nav_left.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    background-size: 20px;    
+}
+
+div.pp_default .pp_nav .currentTextHolder {
+    padding: 0 0 0 20px;
+    color: #fff;
+}
+
+div.pp_default .pp_content_container .pp_details {
+    margin-top: 30px !important;
+    z-index: 3;
+}
+
+div.pp_default .pp_description {
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    top: -30px;
+    margin: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* ===================================
+    7. Button CSS
+====================================== */
+
+a.button {
+    color: #fff !important;
+    background-color: #000;
+    padding: 8px 0px 8px 11px;
+    display: inline-block;
+    font-size: 11px;
+    min-width: 170px;
+    letter-spacing: 8px;
+    transition: opacity .3s ease;
+    text-align: center;
+}
+
+a.button:hover {
+    opacity: 0.8; 
+}
+
+/* ===================================
+    8. Image Slider CSS
+====================================== */
+
+.simple-image-slider-pagination.swiper-pagination {
+    left: 50%;
+    transform: translateX(-50%);    
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.simple-image-slider-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    vertical-align: middle;
+    margin: 0 5px;
+    border: 6px solid white;
+}
+
+.simple-image-slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 18px;
+    height: 18px;
+    border: 2px solid black;    
+    background-color: transparent;
+}
+
+
+/* ===================================
+    9. Horizontal Slider CSS
+====================================== */
+
+.horizontal-slider {
+    padding-left: 100px;
+}
+
+.horizontal-slider .swiper-slide {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: calc(100vh - 20px);
+    margin-top: 10px;
+}
+
+.horizontal-slider .swiper-slide.animate-slide {
+    transition: transform .3s linear;
+    transform: translateX(80px);
+    opacity: 0;
+}
+
+.horizontal-slider .swiper-slide.animate-slide.animate-done {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.horizontal-slider .swiper-slide .post-num {
+    color: #000;
+    position: absolute;
+    bottom: 195px;
+    left: -120px;
+    transform: rotate(270deg);
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-backface-visibility: hidden;
+}
+
+.horizontal-slider .swiper-slide h2.entry-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    line-height: 65px;
+    padding: 5px 0 25px 0;
+    font-weight: 700;
+}
+
+.horizontal-slider .swiper-slide .cat-links {
+    color: #000000;
+}
+
+.horizontal-slider .swiper-slide .cat-links:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    background-color: #000;
+    vertical-align: 5px;
+    margin-right: 5px;
+}
+
+.horizontal-slider .carousel-slider img {
+    height: 100vh;
+    max-width: none;
+}
+
+.horizontal-slider .carousel-cat-links ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.horizontal-slider .carousel-cat-links ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.horizontal-slider .carousel-cat-links ul li:last-child {
+    margin-right: 0 !important;
+}
+
+.horizontal-slider .carousel-cat-links ul li a {
+    background-color: #b6df1e;
+    padding: 10px 15px 10px 19px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.horizontal-slider .carousel-item-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all .3s linear;
+    padding: 80px 60px;  
+    visibility: hidden;
+}
+
+.horizontal-slider .carousel-item-info h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+
+.horizontal-slider .carousel-item-info a {
+    color: #fff;    
+    transition: opacity .3s ease;
+}
+
+.horizontal-slider .carousel-item-info a:hover {
+    opacity: 0.9;
+}
+
+.horizontal-slider .carousel-item-image:hover .carousel-item-info, 
+.horizontal-slider .carousel-item-image:hover a.img-thumb:after, 
+.horizontal-slider .carousel-item-image:hover .carousel-item-image-shadow:after {
+    opacity: 1;
+    transform: translateY(0px);
+    visibility: visible;
+}
+
+.horizontal-slider .carousel-item-image a.img-thumb:after, 
+.horizontal-slider .carousel-item-image .carousel-item-image-shadow:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.34) 100%);
+    width: 100%;
+    height: 100%;
+    transition: all .3s linear;
+    opacity: 0;
+}
+
+.carousel-item-image.no-title-on-slide .carousel-item-image-shadow:after {
+    display: none;
+}
+
+.horizontal-slider .swiper-slide.more-posts-portfolio {
+    color: #000;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    cursor: pointer;
+    width: 85px;
+    transition: .3s;
+}
+
+.horizontal-slider .swiper-slide.more-posts-portfolio:hover {
+    color: #999;
+}
+
+.horizontal-slider .swiper-slide.more-posts-portfolio.click-off {
+    cursor: auto;   
+}
+
+.horizontal-slider .portfolio-slider-load-more {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    min-width: 400px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.horizontal-slider .carousel-item-text {
+    max-width: 500px;
+}
+
+.horizontal-slider .carousel-item-text .carousel-content {
+    color: #797979;
+}
+
+.horizontal-slider .carousel-item-image {
+    position: relative;
+}
+
+.site-wrapper .horizontal-slider .carousel-item-image img {
+    max-width: none;
+    max-height: none;
+    height: calc(100vh - 70px);
+    width: auto;
+}
+
+.horizontal-slider .post-num .total-num:before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    vertical-align: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.horizontal-slider .more-portfolio-loading, 
+.horizontal-slider .no-more-portfolio {
+    display: none;
+}
+
+
+/* ===================================
+    10. Portfolio Archive CSS
+====================================== */
+
+.portfolio-category-pagination-holder {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.portfolio-category-pagination {
+    transform: rotate(-90deg);
+    margin-left: -45px;
+}
+
+.horizontal-slider .no-horizontal-slider .portfolio-category-pagination {
+    transform: none;
+    margin-left: 0;
+}
+
+.horizontal-slider .no-horizontal-slider .portfolio-category-pagination-holder {
+    margin-bottom: 30px;
+}
+
+/* ===================================
+    11. Responsive CSS
+====================================== */
+
+@media screen and (max-width: 1360px) {
+
+    .page-split-left {
+        width: calc(50vw - 200px);
+        margin-left: 150px;
+    }
+
+}
+
+
+@media screen and (max-width: 1020px) {
+
+    .big-text {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .title-description-up {
+        text-align:  center;
+        margin-left: -6px;
+    }
+
+    .coco-gallery-item, 
+    .site-wrapper .coco-gallery-item img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .coco-gallery-item {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: table;
+        margin-bottom: 70px;
+    }
+
+    p.gallery-item-text {
+        position: relative;
+        opacity: 1;
+        bottom: 0;
+    }
+
+    .page-split-left {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 95%;
+        text-align: center;
+    }
+
+    .page-split-right {
+        width: 100%;
+        position: relative;
+        background-image: none !important;
+    }
+
+    .page-split-right img.split-image {
+        display: block;
+    }  
+
+    .horizontal-slider .no-horizontal-slider {
+        display: block !important;
+        margin-top: 100px;
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: center;
+        max-width: calc(100% - 50px);
+    }
+
+    .horizontal-slider .no-horizontal-slider .swiper-slide {
+        display: block !important;
+        height: auto;
+        margin-bottom: 70px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .horizontal-slider .no-horizontal-slider .carousel-item-text {
+        max-width: 100%;
+    }
+
+    .horizontal-slider .no-horizontal-slider .post-num {
+        display: none;
+    }
+
+    .horizontal-slider .no-horizontal-slider .carousel-item-image img {
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 auto;
+    }
+
+    .horizontal-slider .no-horizontal-slider .carousel-item-info {
+        position: relative;
+        opacity: 1;
+        padding: 0;
+        transform: none !important;
+        margin-top: 25px;
+        visibility: visible;
+    }
+
+    .horizontal-slider .no-horizontal-slider .carousel-item-info h2 {
+        font-size: 35px;
+        line-height: 120%;
+        padding: 0;
+        color: #000;
+    }
+
+    .horizontal-slider .no-horizontal-slider .carousel-item-info h2 a {
+        color: #000;
+    }
+
+    .horizontal-slider .no-horizontal-slider .carousel-cat-links ul {
+        margin-bottom: 20px;
+    }
+
+    .horizontal-slider .no-horizontal-slider .carousel-cat-links ul li {    
+        margin: 5px 25px 0 0;
+    }
+
+    .horizontal-slider .no-horizontal-slider .carousel-cat-links ul li a {
+        font-size: 9px;      
+    }
+
+    .horizontal-slider .no-horizontal-slider .carousel-item-image a.img-thumb:after, 
+    .horizontal-slider .no-horizontal-slider .carousel-item-image .carousel-item-image-shadow:after {
+        display: none;
+    }
+
+    .horizontal-slider .no-horizontal-slider .swiper-slide.more-posts-portfolio {
+        margin-left: 0 !important;
+        width: auto;
+        margin-bottom: 30px;
+        display: inline-block !important;
+    }
+
+    .horizontal-slider .no-horizontal-slider .portfolio-slider-load-more {
+        transform: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        min-width: 0;
+        padding: 17px 40px;
+        text-align: left;
+    }
+
+    .horizontal-slider .no-horizontal-slider .swiper-slide.animate-slide {
+        transform: translateY(100px);   
+    }
+
+    .horizontal-slider .no-horizontal-slider .swiper-slide.animate-slide.animate-done {
+        transform: translateY(0);
+    }
+
+    .portfolio-content {
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+}   

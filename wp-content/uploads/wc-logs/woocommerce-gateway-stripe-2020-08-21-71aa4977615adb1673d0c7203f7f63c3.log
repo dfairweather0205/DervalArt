@@ -1,0 +1,314 @@
+2020-08-21T08:48:04+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+Info: Begin creating Alipay source
+====End Log====
+
+
+2020-08-21T08:48:04+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+sources request: Array
+(
+    [amount] => 2997
+    [currency] => usd
+    [type] => alipay
+    [owner] => stdClass Object
+        (
+            [phone] => +84392373804
+            [name] => Cuong Hoang
+            [email] => info@dervalart.com
+            [address] => Array
+                (
+                    [line1] => Vinh city, Nghe An
+                    [line2] => 
+                    [state] => 
+                    [city] => Nghe An
+                    [postal_code] => 440000
+                    [country] => VN
+                )
+
+        )
+
+    [redirect] => Array
+        (
+            [return_url] => https://www.dervalart.com/checkout/order-received/623/?key=wc_order_CJUQkWTZcCdgb&utm_nooverride=1&order_id=623
+        )
+
+)
+
+====End Log====
+
+
+2020-08-21T08:48:05+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+Info: Redirecting to Alipay...
+====End Log====
+
+
+2020-08-21T08:48:17+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+Info: (Webhook) Begin processing payment for order 623 for the amount of 29.97
+====End Log====
+
+
+2020-08-21T08:48:17+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+charges request: Array
+(
+    [currency] => usd
+    [amount] => 2997
+    [description] => Derval Art - Order 623
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Cuong Hoang
+            [customer_email] => info@dervalart.com
+            [order_id] => 623
+        )
+
+    [source] => src_1HIVurEDWROUJXigfpey8e6J
+)
+
+====End Log====
+
+
+2020-08-21T08:48:18+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+Info: (Redirect) Begin processing payment for order 623 for the amount of 29.97
+====End Log====
+
+
+2020-08-21T08:48:18+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+sources/src_1HIVurEDWROUJXigfpey8e6J
+====End Log====
+
+
+2020-08-21T08:48:18+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => py_1HIVv4EDWROUJXigJwWdLMWn
+    [object] => charge
+    [amount] => 2997
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1HIVv4EDWROUJXigXwzdZg8Z
+            [object] => balance_transaction
+            [amount] => 2997
+            [available_on] => 1598572800
+            [created] => 1597999698
+            [currency] => usd
+            [description] => Derval Art - Order 623
+            [exchange_rate] => 
+            [fee] => 117
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 117
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 2880
+            [reporting_category] => charge
+            [source] => py_1HIVv4EDWROUJXigJwWdLMWn
+            [status] => pending
+            [type] => payment
+        )
+
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Nghe An
+                    [country] => VN
+                    [line1] => Vinh city, Nghe An
+                    [line2] => 
+                    [postal_code] => 440000
+                    [state] => 
+                )
+
+            [email] => info@dervalart.com
+            [name] => Cuong Hoang
+            [phone] => +84392373804
+        )
+
+    [calculated_statement_descriptor] => 
+    [captured] => 1
+    [created] => 1597999698
+    [currency] => usd
+    [customer] => 
+    [description] => Derval Art - Order 623
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Cuong Hoang
+            [customer_email] => info@dervalart.com
+            [order_id] => 623
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => not_assessed
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1HIVurEDWROUJXigfpey8e6J
+    [payment_method_details] => stdClass Object
+        (
+            [alipay] => stdClass Object
+                (
+                    [fingerprint] => 
+                    [transaction_id] => 
+                )
+
+            [type] => alipay
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1HI7MQEDWROUJXig/py_1HIVv4EDWROUJXigJwWdLMWn/rcpt_HsGRDwjF0Wah5qiSf3RlPu0gUCYFrjJ
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/py_1HIVv4EDWROUJXigJwWdLMWn/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1HIVurEDWROUJXigfpey8e6J
+            [object] => source
+            [alipay] => stdClass Object
+                (
+                    [statement_descriptor] => 
+                    [native_url] => 
+                    [data_string] => 
+                )
+
+            [amount] => 2997
+            [client_secret] => src_client_secret_UYuBGVZENPvjYTCsHJw1Et5o
+            [created] => 1597999698
+            [currency] => usd
+            [flow] => redirect
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Nghe An
+                            [country] => VN
+                            [line1] => Vinh city, Nghe An
+                            [line2] => 
+                            [postal_code] => 440000
+                            [state] => 
+                        )
+
+                    [email] => info@dervalart.com
+                    [name] => Cuong Hoang
+                    [phone] => +84392373804
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [redirect] => stdClass Object
+                (
+                    [failure_reason] => 
+                    [return_url] => https://www.dervalart.com/checkout/order-received/623/?key=wc_order_CJUQkWTZcCdgb&utm_nooverride=1&order_id=623
+                    [status] => succeeded
+                    [url] => https://hooks.stripe.com/redirect/authenticate/src_1HIVurEDWROUJXigfpey8e6J?client_secret=src_client_secret_UYuBGVZENPvjYTCsHJw1Et5o
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => alipay
+            [usage] => single_use
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2020-08-21T08:48:18+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+balance/history/txn_1HIVv4EDWROUJXigXwzdZg8Z
+====End Log====
+
+
+2020-08-21T08:56:06+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+Your domain has been verified with Apple Pay!
+====End Log====
+
+
+2020-08-21T09:37:56+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+Your domain has been verified with Apple Pay!
+====End Log====
+
+
+2020-08-21T09:38:03+00:00 DEBUG 
+====Stripe Version: 4.5.2====
+====Start Log====
+Your domain has been verified with Apple Pay!
+====End Log====
+
+
