@@ -1,7 +1,0 @@
-{
-    "require": {
-        "kint-php/kint": "^3.2",
-        "harvesthq/chosen": "^1.8",
-        "a5hleyrich/wp-background-processing": "^1.0"
-    }
-}

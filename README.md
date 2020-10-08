@@ -1,2 +1,0 @@
-# DervalArt
-Derval Art Website
