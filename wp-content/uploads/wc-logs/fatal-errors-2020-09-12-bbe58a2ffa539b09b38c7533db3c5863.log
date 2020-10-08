@@ -1,0 +1,20 @@
+2020-09-12T03:51:10+00:00 CRITICAL Uncaught Error: Call to undefined function cocobasic_allowed_html() in /home/dfairwea/public_html/wp-content/themes/anotte-wp/header.php:104
+Stack trace:
+#0 /home/dfairwea/public_html/wp-includes/template.php(730): require_once()
+#1 /home/dfairwea/public_html/wp-includes/template.php(676): load_template('/home/dfairwea/...', true, Array)
+#2 /home/dfairwea/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/dfairwea/public_html/wp-content/themes/anotte-wp/404.php(1): get_header()
+#4 /home/dfairwea/public_html/wp-includes/template-loader.php(106): include('/home/dfairwea/...')
+#5 /home/dfairwea/public_html/wp-blog-header.php(19): require_once('/home/dfairwea/...')
+#6 /home/dfairwea/public_html/index.php(17): require('/home/dfairwea/...')
+#7 {main}
+  thrown in /home/dfairwea/public_html/wp-content/themes/anotte-wp/header.php on line 104
+
+2020-09-12T03:55:24+00:00 CRITICAL syntax error, unexpected end of file, expecting ',' or ')' in /home/dfairwea/public_html/wp-content/themes/anotte-wp/functions.php on line 1261
+
+2020-09-12T09:02:35+00:00 CRITICAL Object of class WP_Post could not be converted to string in /home/dfairwea/public_html/wp-content/themes/anotte-wp/functions.php on line 1205
+
+2020-09-12T09:03:05+00:00 CRITICAL Object of class WP_Post could not be converted to string in /home/dfairwea/public_html/wp-content/themes/anotte-wp/functions.php on line 1205
+
+2020-09-12T09:05:11+00:00 CRITICAL syntax error, unexpected end of file, expecting ',' or ')' in /home/dfairwea/public_html/wp-content/themes/anotte-wp/functions.php on line 1268
+

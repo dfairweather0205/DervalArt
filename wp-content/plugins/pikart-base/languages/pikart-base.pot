@@ -1,0 +1,1740 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pikart Base Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2018-10-27 12:58+0300\n"
+"PO-Revision-Date: 2017-11-24 17:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: Pikarthouse <studio@pikarthouse.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_n_noop;_nx;_x;_x:1,2c;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;esc_html_x;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: assets/vendor\n"
+"X-Poedit-SearchPathExcluded-2: includes/vendor/pikart/wp-core/assets/vendor\n"
+
+#: includes/resources/templates/partials/shop/products-compare/container.php:13
+msgid "Compare Products"
+msgstr ""
+
+#: includes/resources/templates/partials/shop/products-compare/container.php:17
+msgid "No products to compare"
+msgstr ""
+
+#: includes/resources/templates/partials/shop/products-compare/products.php:19
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGalleryImage.php:70
+msgid "Remove"
+msgstr ""
+
+#: includes/resources/templates/partials/sidebars/custom-sidebar-form.php:8
+msgid "Add custom sidebar"
+msgstr ""
+
+#: includes/resources/templates/partials/sidebars/custom-sidebar-form.php:10
+msgid "Enter the name of Sidebar"
+msgstr ""
+
+#: includes/resources/templates/partials/sidebars/custom-sidebar-form.php:11
+msgid "Add Sidebar"
+msgstr ""
+
+#: includes/resources/templates/partials/single/addthis-social-share.php:22
+msgid "Share"
+msgstr ""
+
+#: includes/resources/templates/shortcodes/pikart/custom-post-type-usage.php:11
+#, php-format
+msgid ""
+"The template for %s shortcode is theme specific, please check it for usage "
+"and implement it in your theme"
+msgstr ""
+
+#: includes/resources/templates/shortcodes/pikart/wishlist/empty.php:8
+msgid "Your wishlist is currently empty."
+msgstr ""
+
+#: includes/resources/templates/shortcodes/pikart/wishlist/empty.php:19
+msgid "Return to shop"
+msgstr ""
+
+#: includes/resources/templates/shortcodes/pikart/wishlist/products.php:18
+msgid "Product"
+msgstr ""
+
+#: includes/resources/templates/shortcodes/pikart/wishlist/products.php:19
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:39
+#: includes/src/Shortcode/Type/ProductsShortcode.php:201
+msgid "Price"
+msgstr ""
+
+#: includes/resources/templates/shortcodes/pikart/wishlist/products.php:20
+msgid "Stock status"
+msgstr ""
+
+#: includes/resources/templates/shortcodes/pikart/wishlist/products.php:67
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:145
+msgid "In Stock"
+msgstr ""
+
+#: includes/resources/templates/shortcodes/pikart/wishlist/products.php:67
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:145
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/src/Admin/Media/WpGallery/WpGalleryCustomTemplateHandler.php:26
+#: includes/src/Widget/Type/FlickrWidget.php:121
+#: includes/src/Widget/Type/InstagramWidget.php:86
+msgid "Columns spacing"
+msgstr ""
+
+#: includes/src/Admin/Migration/PikartBaseOptionsMigratorHelper.php:101
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:60
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:61
+msgid "Pikart Base Options"
+msgstr ""
+
+#: includes/src/Admin/Migration/PikartBaseOptionsMigratorHelper.php:102
+msgid "Download Export File"
+msgstr ""
+
+#: includes/src/Admin/Sidebars/CustomSidebarFacade.php:82
+msgid "Add widgets here."
+msgstr ""
+
+#: includes/src/Admin/Sidebars/CustomSidebarFacade.php:117
+msgid "Do you really want to delete the sidebar?"
+msgstr ""
+
+#: includes/src/Admin/Sidebars/CustomSidebarFacade.php:132
+msgid "Delete"
+msgstr ""
+
+#: includes/src/NavigationMenus/CustomWalkerNavMenuEdit.php:82
+msgid "Alternative label"
+msgstr ""
+
+#: includes/src/NavigationMenus/CustomWalkerNavMenuEdit.php:86
+msgid "Alternative label color"
+msgstr ""
+
+#: includes/src/NavigationMenus/CustomWalkerNavMenuEdit.php:90
+msgid "Alternative label background color"
+msgstr ""
+
+#: includes/src/NavigationMenus/CustomWalkerNavMenuEdit.php:110
+msgid "Wide Menu"
+msgstr ""
+
+#: includes/src/NavigationMenus/CustomWalkerNavMenuEdit.php:116
+msgid "Number of columns"
+msgstr ""
+
+#: includes/src/NavigationMenus/CustomWalkerNavMenuEdit.php:121
+msgid "Background image"
+msgstr ""
+
+#: includes/src/NavigationMenus/CustomWalkerNavMenuEdit.php:131
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:223
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:252
+#: includes/src/Shortcode/Type/RowShortcode.php:181
+#: includes/src/Shortcode/Type/RowShortcode.php:189
+#: includes/src/Widget/Type/FlickrWidget.php:124
+#: includes/src/Widget/Type/InstagramWidget.php:89
+msgid "None"
+msgstr ""
+
+#: includes/src/NavigationMenus/CustomWalkerNavMenuEdit.php:135
+msgid "Custom widget area"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:62
+msgid "Pikart Base"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:76
+msgid "Google Services"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:78
+msgid ""
+"There are two types of Google Services that Pikart Base uses in order to "
+"enhance the existing theme features: Location and Analytics services. Each "
+"of them requires specific data from Google in order to make them working "
+"with actual theme."
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:83
+msgid "Social Services"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:85
+msgid ""
+"Social Services — as the name already says it — are intended to connect and "
+"adapt actual theme to  diverse social networks. There are two types of "
+"Social Services: Share and Likes."
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:91
+msgid "Wishlist"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:92
+msgid ""
+"Wishlist is designed to enhance the shop features when WooCommerce Plugin is "
+"activated."
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:97
+msgid "Products compare"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:98
+msgid ""
+"Products compare is designed to enhance the shop features when WooCommerce "
+"Plugin is activated."
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:111
+msgid "Pin image"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:114
+msgid "API Key"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:117
+msgid "_authenticate your site with API Key, in order to use Google Maps"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:119
+msgid "Get the key"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:122
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:135
+msgid "Social Share"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:141
+msgid ""
+"_add the share services, delimited by a single comma (no spaces). You can "
+"find the full list of services "
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:143
+msgid "here"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:144
+msgid "Notes:"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:145
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:147
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:149
+msgid "&ndash; use the"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:146
+msgid "tag to show the plus sign"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:148
+msgid "for a global share counter"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:150
+msgid "tag to show your visitors a personalized lists of buttons."
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:155
+msgid "Social Share Visibility"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:161
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:173
+msgid "Post"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:162
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:174
+msgid "Project"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:163
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:175
+msgid "Page"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:167
+msgid "Likes Area Visibility"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:189
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:211
+msgid "Enabled"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:192
+msgid "Wishlist page"
+msgstr ""
+
+#: includes/src/OptionsPages/OptionsPagesConfigProvider.php:195
+msgid "_be sure to select a page where the Wishlist shortcode is inserted"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:34 includes/src/Post/Type/Album.php:65
+msgid "Album"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:35
+msgid "Album items"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:59
+msgctxt "Permalink structure slug"
+msgid "album"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:63
+msgctxt "Post type general name"
+msgid "Album"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:64
+msgctxt "Post type singular name"
+msgid "Album"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:66
+msgid "Parent:"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:67
+msgid "All Items"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:68
+msgid "View Item"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:69 includes/src/Post/Type/Album.php:71
+msgid "Add New Item"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:70
+msgid "New Item"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:72
+msgid "Edit Item"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:73
+msgid "Update Item"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:74
+msgid "Search Item"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:75
+msgid "No items found"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:76
+msgid "No items found in Trash"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:93
+msgctxt "Permalink structure slug"
+msgid "album-category"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:99
+msgctxt "Taxonomy general name"
+msgid "Album Categories"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:101
+msgctxt "Taxonomy singular name"
+msgid "Album Category"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:102
+msgid "Album Categories"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:103 includes/src/Post/Type/Project.php:96
+msgid "All Categories"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:104 includes/src/Post/Type/Project.php:97
+msgid "Parent Category"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:105 includes/src/Post/Type/Project.php:98
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:106 includes/src/Post/Type/Project.php:99
+msgid "New Category"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:107 includes/src/Post/Type/Project.php:100
+msgid "Add New Category"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:108 includes/src/Post/Type/Project.php:101
+msgid "Edit Category"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:109 includes/src/Post/Type/Project.php:102
+msgid "View Category"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:110 includes/src/Post/Type/Project.php:103
+msgid "Update Category"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:111 includes/src/Post/Type/Project.php:104
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:112 includes/src/Post/Type/Project.php:105
+msgid "Search Categories"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:113 includes/src/Post/Type/Project.php:106
+msgid "Add or remove Categories"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:114 includes/src/Post/Type/Project.php:107
+msgid "Popular Categories"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:115 includes/src/Post/Type/Project.php:108
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: includes/src/Post/Type/Album.php:116 includes/src/Post/Type/Project.php:109
+msgid "Not categories found"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:34 includes/src/Post/Type/Project.php:58
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:56
+msgid "Projects"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:35
+msgid "Portfolio projects"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:52
+msgctxt "Permalink structure slug"
+msgid "project"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:56
+msgctxt "Post type general name"
+msgid "Projects"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:57
+msgctxt "Post type singular name"
+msgid "Project"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:59
+msgid "Parent Project:"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:60
+msgid "All Projects"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:61
+msgid "View Project"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:62
+msgid "Add New Project"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:63
+msgid "New Project"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:64
+msgid "Add New"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:65
+msgid "Edit Project"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:66
+msgid "Update Project"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:67
+msgid "Search Project"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:68
+msgid "No projects found"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:69
+msgid "No projects found in Trash"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:86
+msgctxt "Permalink structure slug"
+msgid "project-category"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:92
+msgctxt "Taxonomy general name"
+msgid "Project Categories"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:94
+msgctxt "Taxonomy singular name"
+msgid "Project Category"
+msgstr ""
+
+#: includes/src/Post/Type/Project.php:95
+msgid "Project Categories"
+msgstr ""
+
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:38
+#: includes/src/Shortcode/Type/AccordionItemShortcode.php:35
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:236
+#: includes/src/Shortcode/Type/GeolocationShortcode.php:45
+#: includes/src/Shortcode/Type/HeadingShortcode.php:41
+#: includes/src/Shortcode/Type/ProgressBarShortcode.php:34
+#: includes/src/Shortcode/Type/TabShortcode.php:35
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:35
+#: includes/src/Shortcode/Type/TestimonialShortcode.php:39
+msgid "Title"
+msgstr ""
+
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:40
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:41
+msgid "Sku"
+msgstr ""
+
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:42
+msgid "Availability"
+msgstr ""
+
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:43
+msgid "Weight"
+msgstr ""
+
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:44
+msgid "Dimensions"
+msgstr ""
+
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:60
+#: includes/src/Shortcode/Type/ProductsShortcode.php:203
+msgid "Rating"
+msgstr ""
+
+#: includes/src/Shop/ProductsCompare/ProductsCompareTemplateUtil.php:63
+#: includes/src/Shortcode/Type/GeolocationShortcode.php:48
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:36
+msgid "Description"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AccordionItemShortcode.php:40
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:181
+#: includes/src/Shortcode/Type/DropcapShortcode.php:35
+#: includes/src/Shortcode/Type/HighlightShortcode.php:45
+#: includes/src/Shortcode/Type/QuoteShortcode.php:58
+#: includes/src/Shortcode/Type/TabShortcode.php:40
+#: includes/src/Shortcode/Type/TestimonialShortcode.php:52
+msgid "Content"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AccordionShortcode.php:50
+#: includes/src/Shortcode/Type/AlbumShortcode.php:51
+msgid "Items"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AccordionShortcode.php:52
+msgid "New item"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AccordionShortcode.php:53
+msgid "Item"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AccordionShortcode.php:57
+msgid "Multi expand"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AccordionShortcode.php:58
+msgid "It allows to open more than one accordion at a time"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AccordionShortcode.php:61
+msgid "Allow all closed"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AccordionShortcode.php:62
+msgid "It allows to close all the accordions"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:43
+#: includes/src/Shortcode/Type/ProductsShortcode.php:101
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:43
+#: includes/src/Shortcode/Type/RowShortcode.php:62
+msgid "General Properties"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:46
+msgid "Album categories"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:48
+msgid "Filter items by categories. Leave empty to select all items"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:53
+msgid "Choose items you want to display (comma separated Items IDs)"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:56
+#: includes/src/Shortcode/Type/ProductsShortcode.php:154
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:61
+msgid "Categories filter"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:58
+#: includes/src/Shortcode/Type/ProductsShortcode.php:156
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:63
+msgid "Decide if you want to display categories filter or not"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:61
+#: includes/src/Shortcode/Type/ProductsShortcode.php:159
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:66
+msgid "Order by"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:63
+msgid "Select the field by which to order the items"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:66
+#: includes/src/Shortcode/Type/ProductsShortcode.php:164
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:71
+msgid "Order"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:68
+#: includes/src/Shortcode/Type/ProductsShortcode.php:166
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:73
+msgid "Select the display order"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:71
+msgid "Number of items"
+msgstr ""
+
+#: includes/src/Shortcode/Type/AlbumShortcode.php:75
+msgid "Select number of items"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:34
+msgid "Label"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:35
+#: includes/src/Shortcode/Type/ColumnShortcode.php:34
+#: includes/src/Shortcode/Type/ColumnsShortcode.php:71
+#: includes/src/Shortcode/Type/IconShortcode.php:48
+msgid "Size"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:43
+#: includes/src/Shortcode/Type/QuoteShortcode.php:34
+msgid "Text size"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:51
+#: includes/src/Shortcode/Type/IconShortcode.php:73
+msgid "Link"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:52
+#: includes/src/Shortcode/Type/IconShortcode.php:74
+#: includes/src/Shortcode/Type/QuoteShortcode.php:44
+#: includes/src/Shortcode/Type/TabsShortcode.php:51
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:39
+#: includes/src/Shortcode/Type/TestimonialShortcode.php:46
+msgid "New tab"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:56
+msgid "Button Colors"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:59
+msgid "Text"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:60
+msgid "Text hover"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:61
+#: includes/src/Shortcode/Type/IconShortcode.php:83
+msgid "Background"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:62
+#: includes/src/Shortcode/Type/IconShortcode.php:84
+msgid "Background hover"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:63
+#: includes/src/Shortcode/Type/IconShortcode.php:85
+msgid "Border"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ButtonShortcode.php:64
+#: includes/src/Shortcode/Type/IconShortcode.php:86
+msgid "Border hover"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ColumnShortcode.php:38
+#: includes/src/Shortcode/Type/RowShortcode.php:217
+msgid "Content goes here"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ColumnsShortcode.php:61
+msgid "Number"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ColumnsShortcode.php:76
+msgid "Spacing"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ColumnsShortcode.php:77
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:116
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:163
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:167
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:171
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:175
+#: includes/src/Shortcode/Type/DropcapShortcode.php:45
+#: includes/src/Shortcode/Type/DropcapShortcode.php:65
+#: includes/src/Shortcode/Type/MapShortcode.php:68
+#: includes/src/Shortcode/Type/RowShortcode.php:91
+#: includes/src/Shortcode/Type/RowShortcode.php:95
+#: includes/src/Shortcode/Type/RowShortcode.php:99
+#: includes/src/Shortcode/Type/RowShortcode.php:103
+msgid "pixels"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:73
+msgid "Default"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:78
+msgid "Font family"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:81
+#: includes/src/Shortcode/Type/DropcapShortcode.php:44
+msgid "Font size"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:101
+#: includes/src/Shortcode/Type/DropcapShortcode.php:50
+msgid "Font weight"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:115
+msgid "Letter spacing"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:122
+msgid "Line height"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:128
+msgid "Text decoration"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:137
+#: includes/src/Shortcode/Type/DropcapShortcode.php:70
+#: includes/src/Shortcode/Type/HighlightShortcode.php:41
+msgid "Text color"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:138
+#: includes/src/Shortcode/Type/RowShortcode.php:68
+#: includes/src/Shortcode/Type/RowShortcode.php:201
+msgid "Paddings"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:139
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:143
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:147
+#: includes/src/Shortcode/Type/RowShortcode.php:69
+#: includes/src/Shortcode/Type/RowShortcode.php:78
+#: includes/src/Shortcode/Type/RowShortcode.php:202
+#: includes/src/Shortcode/Type/RowShortcode.php:211
+msgid "Top Right Bottom Left (pixels)"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:140
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:144
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:148
+#: includes/src/Shortcode/Type/RowShortcode.php:70
+#: includes/src/Shortcode/Type/RowShortcode.php:75
+#: includes/src/Shortcode/Type/RowShortcode.php:79
+#: includes/src/Shortcode/Type/RowShortcode.php:203
+#: includes/src/Shortcode/Type/RowShortcode.php:208
+#: includes/src/Shortcode/Type/RowShortcode.php:212
+msgid "0px 0px 0px 0px"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:142
+#: includes/src/Shortcode/Type/RowShortcode.php:72
+#: includes/src/Shortcode/Type/RowShortcode.php:205
+msgid "Margins"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:146
+#: includes/src/Shortcode/Type/RowShortcode.php:77
+#: includes/src/Shortcode/Type/RowShortcode.php:210
+msgid "Borders"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:150
+#: includes/src/Shortcode/Type/RowShortcode.php:81
+#: includes/src/Shortcode/Type/RowShortcode.php:214
+msgid "Borders color"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:151
+#: includes/src/Shortcode/Type/DropcapShortcode.php:71
+#: includes/src/Shortcode/Type/HighlightShortcode.php:42
+msgid "Background color"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:154
+#: includes/src/Shortcode/Type/IconShortcode.php:56
+#: includes/src/Shortcode/Type/RowShortcode.php:82
+msgid "Position"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:155
+msgid "Position Custom-content to appear above other elements"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:158
+#: includes/src/Shortcode/Type/RowShortcode.php:86
+msgid "_z-index"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:162
+#: includes/src/Shortcode/Type/RowShortcode.php:90
+msgid "_top"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:166
+#: includes/src/Shortcode/Type/RowShortcode.php:94
+msgid "_right"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:170
+#: includes/src/Shortcode/Type/RowShortcode.php:98
+msgid "_bottom"
+msgstr ""
+
+#: includes/src/Shortcode/Type/CustomContentShortcode.php:174
+#: includes/src/Shortcode/Type/RowShortcode.php:102
+msgid "_left"
+msgstr ""
+
+#: includes/src/Shortcode/Type/DropcapShortcode.php:34
+msgid "Character/Text"
+msgstr ""
+
+#: includes/src/Shortcode/Type/DropcapShortcode.php:37
+#: includes/src/Shortcode/Type/HighlightShortcode.php:34
+#: includes/src/Shortcode/Type/IconShortcode.php:40
+#: includes/src/Shortcode/Type/SeparatorShortcode.php:34
+msgid "Type"
+msgstr ""
+
+#: includes/src/Shortcode/Type/DropcapShortcode.php:64
+msgid "Square size"
+msgstr ""
+
+#: includes/src/Shortcode/Type/DropcapShortcode.php:72
+msgid "Border color"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:234
+msgid "Relevance"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:235
+msgid "Date"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:237
+#: includes/src/Shortcode/Type/QuoteShortcode.php:42
+#: includes/src/Shortcode/Type/TestimonialShortcode.php:35
+msgid "Author"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:238
+msgid "Id"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:239
+msgid "Last modified date"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:240
+msgid "Menu order"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:241
+msgid "Parent id"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:242
+msgid "Number of comments"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:243
+msgid "Random"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:253
+msgid "All categories"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:254
+msgid "Main categories"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:263
+msgid "Ascending"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GenericCustomPostTypeShortcode.php:264
+msgid "Descending"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GeolocationShortcode.php:37
+msgid "Latitude from GMaps"
+msgstr ""
+
+#: includes/src/Shortcode/Type/GeolocationShortcode.php:42
+msgid "Longitude from GMaps"
+msgstr ""
+
+#: includes/src/Shortcode/Type/HeadingShortcode.php:42
+msgid "Subtitle"
+msgstr ""
+
+#: includes/src/Shortcode/Type/HeadingShortcode.php:43
+#: includes/src/Shortcode/Type/SeparatorShortcode.php:42
+msgid "Alignment"
+msgstr ""
+
+#: includes/src/Shortcode/Type/IconShortcode.php:65
+msgid "Flip"
+msgstr ""
+
+#: includes/src/Shortcode/Type/IconShortcode.php:78
+msgid "Icon Colors"
+msgstr ""
+
+#: includes/src/Shortcode/Type/IconShortcode.php:81
+msgid "Icon"
+msgstr ""
+
+#: includes/src/Shortcode/Type/IconShortcode.php:82
+msgid "Icon hover"
+msgstr ""
+
+#: includes/src/Shortcode/Type/IconShortcode.php:87
+msgid "Icons List"
+msgstr ""
+
+#: includes/src/Shortcode/Type/MapShortcode.php:60
+msgid "Locations"
+msgstr ""
+
+#: includes/src/Shortcode/Type/MapShortcode.php:62
+msgid "New location"
+msgstr ""
+
+#: includes/src/Shortcode/Type/MapShortcode.php:63
+msgid "Location"
+msgstr ""
+
+#: includes/src/Shortcode/Type/MapShortcode.php:67
+msgid "Map height"
+msgstr ""
+
+#: includes/src/Shortcode/Type/MapShortcode.php:71
+msgid "Enter the height for the map (pixels)"
+msgstr ""
+
+#: includes/src/Shortcode/Type/MapShortcode.php:73
+msgid "Map zoom"
+msgstr ""
+
+#: includes/src/Shortcode/Type/MapShortcode.php:78
+msgid ""
+"Enter a zoom factor for Google Map (0 = whole world, 20 = specific buildings)"
+msgstr ""
+
+#: includes/src/Shortcode/Type/MapShortcode.php:80
+#: includes/src/Shortcode/Type/RowShortcode.php:144
+msgid "Parallax effect"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:104
+msgid "Products type"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:106
+msgid "Choose your products type"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:108
+msgid "All"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:109
+msgid "Top rated"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:110
+msgid "Best selling"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:111
+msgid "Sale"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:114
+msgid "Products visibility"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:116
+msgid "Choose products visibility"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:118
+msgid "Visible"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:119
+msgid "Catalog"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:120
+msgid "Search"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:121
+msgid "Hidden"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:122
+msgid "Featured"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:125
+msgid "Product categories"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:127
+msgid "Filter products by categories. Leave empty to select all products"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:130
+msgid "Categories usage"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:132
+msgid "Choose how categories are used for products filtering"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:134
+msgid "Products with at least one of the chosen categories"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:135
+msgid "Products present in all the chosen categories"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:136
+msgid "Products not present in the chosen categories"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:139
+msgid "Product tags"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:141
+msgid "Filter products by tags. Leave empty to select all products"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:144
+msgid "Products"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:146
+msgid "Choose products you want to display (comma separated Products IDs)"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:149
+msgid "SKUs"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:151
+msgid "Choose products you want to display (comma separated Products SKUs)"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:161
+msgid "Select the field by which to order the products"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:169
+msgid "Number of products"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:173
+msgid "Select number of products"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:175
+msgid "Pagination"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:177
+msgid "Enable/Disable pagination"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProductsShortcode.php:202
+msgid "Popularity"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProgressBarShortcode.php:35
+msgid "Progress"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProgressBarShortcode.php:38
+msgid "Loading value"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:46
+msgid "Projects categories"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:48
+msgid "Filter projects by categories. Leave empty to select all projects"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:51
+msgid "Projects tags"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:53
+msgid "Filter projects by tags. Leave empty to select all projects"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:58
+msgid "Choose projects you want to display (comma separated Projects IDs)"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:68
+msgid "Select the field by which to order the projects"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:76
+msgid "Number of projects"
+msgstr ""
+
+#: includes/src/Shortcode/Type/ProjectsShortcode.php:80
+msgid "Select number of projects"
+msgstr ""
+
+#: includes/src/Shortcode/Type/QuoteShortcode.php:43
+#: includes/src/Shortcode/Type/TestimonialShortcode.php:43
+msgid "Author Link"
+msgstr ""
+
+#: includes/src/Shortcode/Type/QuoteShortcode.php:45
+msgid "If enabled, Author Link opens in a New tab"
+msgstr ""
+
+#: includes/src/Shortcode/Type/QuoteShortcode.php:48
+msgid "Text alignment"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:65
+msgid "Anchor ID"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:66
+msgid "Enter here the anchor ID you introduce in a previous link"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:74
+#: includes/src/Shortcode/Type/RowShortcode.php:207
+msgid "Top Right Bottom Left (pixels). You could also use negative values"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:83
+msgid "Position Row to appear above other elements"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:107
+msgid "Background Properties"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:110
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:37
+msgid "Image"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:111
+msgid "Color"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:114
+msgid "Color transparency"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:116
+msgid "percents (%)"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:122
+msgid "Height"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:125
+#: includes/src/Shortcode/Type/RowShortcode.php:154
+msgid "Auto"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:126
+msgid "Fixed values"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:127
+#: includes/src/Shortcode/Type/RowShortcode.php:155
+msgid "Custom"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:130
+#: includes/src/Shortcode/Type/RowShortcode.php:158
+msgid "_pixels"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:134
+msgid "_ratio"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:135
+msgid "Set the height as percentage from browser window height"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:138
+msgid "One third"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:139
+msgid "Half"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:140
+msgid "Two thirds"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:141
+msgid "Full-height"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:145
+msgid "It works just when the Image is set up"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:148
+msgid "Content Properties"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:151
+msgid "Width"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:162
+msgid "Horizontal position"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:165
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:74
+msgid "Left"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:166
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:75
+msgid "Center"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:167
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:76
+msgid "Right"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:170
+msgid "Vertical position"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:173
+msgid "Top"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:174
+msgid "Middle"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:175
+msgid "Bottom"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:178
+msgid "Color skin"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:182
+#: includes/src/Widget/Type/TwitterWidget.php:78
+msgid "Light"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:183
+#: includes/src/Widget/Type/TwitterWidget.php:79
+msgid "Dark"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:186
+msgid "Animation"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:190
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:67
+msgid "Fade"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:191
+msgid "Zoom"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:194
+msgid "Animation delay"
+msgstr ""
+
+#: includes/src/Shortcode/Type/RowShortcode.php:195
+msgid "seconds"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TabsShortcode.php:49
+msgid "Tabs"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TabsShortcode.php:52
+msgid "Tab"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:34
+msgid "Name"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:38
+msgid "Image Link"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:41
+msgid "Social Links"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:42
+msgid "Facebook"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:43
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:44
+msgid "Twitter"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TeamMemberShortcode.php:45
+msgid "Pinterest"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:57
+msgid "Slides"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:59
+msgid "New slide"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:60
+msgid "Slide"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:64
+msgid "Transition"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:68
+msgid "Move"
+msgstr ""
+
+#: includes/src/Shortcode/Type/TestimonialsShortcode.php:71
+msgid "Content alignment"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:54
+#: includes/src/Widget/Type/InstagramWidget.php:51
+#: includes/src/Widget/Type/RecentProjectsWidget.php:102
+#: includes/src/Widget/Type/SocialLinksWidget.php:135
+#: includes/src/Widget/Type/TwitterWidget.php:51
+msgid "Title:"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:55
+msgid "Flickr"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:60
+msgid "Flickr ID:"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:62
+msgid "Gey your Flickr ID"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:67
+msgid "Flickr Api Key:"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:69
+msgid "Gey the Api Key"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:74
+#: includes/src/Widget/Type/InstagramWidget.php:62
+msgid "Number of photos:"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:86
+msgid "The type of photos from user or group."
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:90
+msgid "user"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:91
+msgid "group"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:96
+msgid "Photo Size"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:99
+msgid "Small square"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:100
+msgid "Large square"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:101
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:102
+#: includes/src/Widget/Type/FlickrWidget.php:125
+#: includes/src/Widget/Type/InstagramWidget.php:90
+msgid "Small"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:103
+#: includes/src/Widget/Type/FlickrWidget.php:126
+#: includes/src/Widget/Type/InstagramWidget.php:91
+msgid "Medium"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:108
+#: includes/src/Widget/Type/InstagramWidget.php:73
+msgid "Columns"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:127
+#: includes/src/Widget/Type/InstagramWidget.php:92
+msgid "Large"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:144
+msgid "Pikart Flickr"
+msgstr ""
+
+#: includes/src/Widget/Type/FlickrWidget.php:151
+msgid "Your Flickr photos."
+msgstr ""
+
+#: includes/src/Widget/Type/InstagramWidget.php:52
+msgid "Instagram"
+msgstr ""
+
+#: includes/src/Widget/Type/InstagramWidget.php:57
+msgid "@Username or #Hashtag:"
+msgstr ""
+
+#: includes/src/Widget/Type/InstagramWidget.php:109
+msgid "Pikart Instagram"
+msgstr ""
+
+#: includes/src/Widget/Type/InstagramWidget.php:116
+msgid "Your Instagram photos."
+msgstr ""
+
+#: includes/src/Widget/Type/RecentProjectsWidget.php:103
+msgid "Recent Projects"
+msgstr ""
+
+#: includes/src/Widget/Type/RecentProjectsWidget.php:108
+msgid "Number of projects to show:"
+msgstr ""
+
+#: includes/src/Widget/Type/RecentProjectsWidget.php:131
+msgid "Pikart Recent Projects"
+msgstr ""
+
+#: includes/src/Widget/Type/RecentProjectsWidget.php:138
+msgid "Your site&#8217;s most recent Projects."
+msgstr ""
+
+#: includes/src/Widget/Type/SocialLinksWidget.php:100
+msgid "Add social link"
+msgstr ""
+
+#: includes/src/Widget/Type/SocialLinksWidget.php:136
+msgid "Social links"
+msgstr ""
+
+#: includes/src/Widget/Type/SocialLinksWidget.php:141
+msgid "Font size (pixels):"
+msgstr ""
+
+#: includes/src/Widget/Type/SocialLinksWidget.php:151
+msgid "Target:"
+msgstr ""
+
+#: includes/src/Widget/Type/SocialLinksWidget.php:155
+msgid "_blank"
+msgstr ""
+
+#: includes/src/Widget/Type/SocialLinksWidget.php:156
+msgid "_self"
+msgstr ""
+
+#: includes/src/Widget/Type/SocialLinksWidget.php:161
+msgid "Email:"
+msgstr ""
+
+#: includes/src/Widget/Type/SocialLinksWidget.php:179
+msgid "Pikart Social Links"
+msgstr ""
+
+#: includes/src/Widget/Type/SocialLinksWidget.php:186
+msgid "Your social links."
+msgstr ""
+
+#: includes/src/Widget/Type/TwitterWidget.php:52
+msgid "Tweets"
+msgstr ""
+
+#: includes/src/Widget/Type/TwitterWidget.php:57
+msgid "Twitter user:"
+msgstr ""
+
+#: includes/src/Widget/Type/TwitterWidget.php:62
+msgid "Number of tweets (max 20):"
+msgstr ""
+
+#: includes/src/Widget/Type/TwitterWidget.php:74
+msgid "Theme:"
+msgstr ""
+
+#: includes/src/Widget/Type/TwitterWidget.php:96
+msgid "Pikart Twitter"
+msgstr ""
+
+#: includes/src/Widget/Type/TwitterWidget.php:103
+msgid "Your tweets."
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGallery.php:77
+msgid "Open"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGallery.php:78
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:95
+msgid "Reset"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGallery.php:93
+msgid "Video URL"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGallery.php:94
+msgid "Enter Youtube or Vimeo link"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGalleryImage.php:68
+msgid "Select"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Shortcode/ShortcodeFieldConfigBuilder.php:49
+msgid "Enter color code"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Shortcode/ShortcodeFieldConfigBuilder.php:52
+msgid "Select color"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Shortcode/ShortcodeFieldConfigBuilder.php:214
+msgid "CSS Class"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/GoogleFontsHelper.php:157
+msgid "Invalid font. Retype it carefully again."
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/GoogleFontsHelper.php:183
+msgid "Font already exists. See font family dropdown-lists"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/GoogleFontsHelper.php:199
+msgid "Please add only one font at once"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/GoogleFontsHelper.php:209
+msgid "Font was added. See font family dropdown-lists"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:23
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:24
+msgid "_example: Ubuntu+Mono:400,400i,700"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:29
+msgid "Add font"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:41
+msgid "Logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:52
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:81
+msgid "Inverted Logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:71
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:74
+msgid "Select inverted logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:72
+msgid "Change inverted logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:73
+msgid "No inverted logo selected"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:75
+msgid "Choose inverted logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:96
+msgid "Reset Theme Options"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:97
+msgid "_reset all the custom Theme Options to default values"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:108
+msgid "JavaScript Header"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:111
+msgid "JavaScript Footer "
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:126
+msgid "Copy"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:127
+msgid "Copy Parent Theme Options"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:128
+msgid "_copy all the custom Parent Theme Options"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsCoreUtil.php:248
+msgid "Are you sure you want to reset all theme customizations?"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsCoreUtil.php:308
+msgid ""
+"Are you sure you want to copy all parent theme customizations? This will "
+"override all the child theme customizer options?"
+msgstr ""

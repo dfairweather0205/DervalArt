@@ -1,0 +1,3128 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nels Theme 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2018-11-29 16:36+0200\n"
+"PO-Revision-Date: 2017-11-24 17:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: Pikarthouse <studio@pikarthouse.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_n_noop;_nx;_x;_x:1,2c;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;esc_html_x;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: assets/vendor\n"
+"X-Poedit-SearchPathExcluded-2: includes/vendor/pikart/wp-core/assets/vendor\n"
+
+#: comments.php:44
+msgid "Close Comments"
+msgstr ""
+
+#: comments.php:47
+#, php-format
+msgid "Show %s Comment"
+msgstr ""
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: includes/src/Admin/Migration/OneClickDemoImportSetup.php:65
+msgid ""
+"Be sure to have activated all the required and recommended plugins. After "
+"you import this demo, you will have to setup Sliders and Contact Forms "
+"separately."
+msgstr ""
+
+#: includes/src/Misc/BreadcrumbsGenerator.php:73
+msgid "Home"
+msgstr ""
+
+#: includes/src/Misc/BreadcrumbsGenerator.php:114
+#: includes/src/Misc/TemplatesUtil.php:184
+msgid "Archives"
+msgstr ""
+
+#: includes/src/Misc/BreadcrumbsGenerator.php:120
+msgid "Search Results"
+msgstr ""
+
+#: includes/src/Misc/TemplatesUtil.php:173
+msgid "News"
+msgstr ""
+
+#: includes/src/Misc/TemplatesUtil.php:177
+msgid "Search Results for: "
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:50
+msgid "Album Item Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:51
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:95
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:84
+msgid "Title"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:52
+msgid "Enter the title here. Leave empty, if not needed"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:55
+msgid "Subtitle"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:56
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:60
+msgid "Enter the subtitle here. Leave empty, if not needed"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:59
+#: templates/partials/single/attachment/elements/description.php:10
+msgid "Description"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:63
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:61
+msgid "Button label"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:64
+msgid "Leave empty, if you do not need button"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:65
+msgid "Link"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:66
+msgid "Insert the link here. Leave empty, if not needed"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:67
+msgid "New Tab"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:68
+msgid "It opens the inserted link in a New Tab"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:84
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:29
+msgid "Video Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:85
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:48
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:53
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:51
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2642
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:86
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:49
+msgid "Choose the type of video"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:89
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:52
+msgid "Online service"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:90
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:53
+msgid "Self hosted"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:94
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:57
+msgid "Video Online Service Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:95
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:58
+msgid "Video source"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:96
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:59
+msgid "Enter Youtube/Vimeo video link or embed code here"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:98
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:61
+msgid "Video Self Hosted Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:99
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:62
+msgid "Uploaded Video Link"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:100
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:63
+msgid "Enter the link of previously uploaded video in Media Library"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:101
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:64
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:95
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:80
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:93
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:106
+msgid "Autoplay"
+msgstr ""
+
+#: includes/src/Post/Options/Config/AlbumOptionsConfig.php:102
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:65
+msgid "Video plays automatically"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AsideFormatOptionsConfig.php:28
+msgid "Aside Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AsideFormatOptionsConfig.php:36
+#: includes/src/Post/Options/Config/PageOptionsConfig.php:64
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:55
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:68
+msgid "Hero Header"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AsideFormatOptionsConfig.php:37
+#: includes/src/Post/Options/Config/PageOptionsConfig.php:65
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:56
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:69
+msgid "Enter Hero Header content here"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AsideFormatOptionsConfig.php:43
+#: includes/src/Post/Options/Config/Format/AudioFormatOptionsConfig.php:44
+#: includes/src/Post/Options/Config/Format/GalleryFormatOptionsConfig.php:44
+#: includes/src/Post/Options/Config/Format/StandardFormatOptionsConfig.php:41
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:43
+msgid "Display excerpt"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AsideFormatOptionsConfig.php:44
+#: includes/src/Post/Options/Config/Format/AudioFormatOptionsConfig.php:45
+#: includes/src/Post/Options/Config/Format/GalleryFormatOptionsConfig.php:45
+#: includes/src/Post/Options/Config/Format/StandardFormatOptionsConfig.php:42
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:44
+msgid "Display Post Excerpt on Blog page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AudioFormatOptionsConfig.php:28
+msgid "Audio Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AudioFormatOptionsConfig.php:37
+msgid "Featured Audio"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AudioFormatOptionsConfig.php:38
+msgid "Display Featured Audio on Single Post Page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AudioFormatOptionsConfig.php:42
+msgid "Audio source"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/AudioFormatOptionsConfig.php:43
+msgid "Enter the audio link or embedded code here"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/GalleryFormatOptionsConfig.php:28
+msgid "Gallery Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/GalleryFormatOptionsConfig.php:37
+msgid "Featured Gallery"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/GalleryFormatOptionsConfig.php:38
+msgid "Display Featured gallery on Single Post Page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/GalleryFormatOptionsConfig.php:42
+msgid "Images"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/GalleryFormatOptionsConfig.php:43
+msgid "Upload images to your gallery from Media Library"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/ImageFormatOptionsConfig.php:28
+msgid "Image Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/ImageFormatOptionsConfig.php:36
+#: includes/src/Post/Options/Config/Format/StandardFormatOptionsConfig.php:36
+msgid "Featured Image"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/ImageFormatOptionsConfig.php:37
+#: includes/src/Post/Options/Config/Format/StandardFormatOptionsConfig.php:37
+msgid "Display Featured Image on Single Post Page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/LinkFormatOptionsConfig.php:28
+msgid "Link Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/LinkFormatOptionsConfig.php:37
+msgid "Featured Link"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/LinkFormatOptionsConfig.php:38
+msgid "Display Featured Link on Single Post Page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/LinkFormatOptionsConfig.php:42
+msgid "Insert link"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/LinkFormatOptionsConfig.php:43
+msgid "Enter the link you want to emphasize"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/LinkFormatOptionsConfig.php:44
+msgid "Insert link text"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/LinkFormatOptionsConfig.php:45
+msgid "Enter the text link"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/QuoteFormatOptionsConfig.php:28
+msgid "Quote Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/QuoteFormatOptionsConfig.php:37
+msgid "Featured Quote"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/QuoteFormatOptionsConfig.php:38
+msgid "Display Featured Quote on Single Post Page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/QuoteFormatOptionsConfig.php:42
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:84
+msgid "Content"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/QuoteFormatOptionsConfig.php:43
+msgid "Please enter the text for your quote here"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/QuoteFormatOptionsConfig.php:44
+msgid "Author name"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/QuoteFormatOptionsConfig.php:45
+msgid "Enter the name of quote author"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/QuoteFormatOptionsConfig.php:46
+msgid "Author link"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/QuoteFormatOptionsConfig.php:47
+msgid "Enter the link to connect author to any address"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/StandardFormatOptionsConfig.php:28
+msgid "Standard Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:38
+msgid "Featured Video"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Format/VideoFormatOptionsConfig.php:39
+msgid "Display Featured Video on Single Post Page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:76
+msgid "General Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:77
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:33
+msgid "Site width"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:78
+msgid "It overwrites Site Width, set up in Theme Options (pixels)"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:84
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:50
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:61
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:44
+msgid "Full width"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:86
+msgid ""
+"If enabled, it overwrites Site Width and the content gets browser window "
+"width"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:92
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:29
+msgid "Site Header transparency"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:94
+msgid ""
+"If enabled, the Site Header is transparent and the content is displayed from "
+"the very top of browser window"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:99
+msgid "Site Header Above Area"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:100
+msgid "It includes Site Notice, Above Area menu and Above Area Social menu"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:104
+msgid "Header Image / Featured Branding"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:106
+msgid ""
+"Enable it, if you already set up Featured Image and want the Branding to be "
+"above content. If Featured Image is not set up, it takes Header Image from "
+"Theme Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:111
+msgid "Display Branding"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:112
+msgid ""
+"Branding includes Title, Metadata and Breadcrumbs (if Breadcrumbs are "
+"enabled)"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:118
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:34
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:119
+msgid "Breadcrumbs act as secondary site navigation"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:125
+msgid "Title Area"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:126
+msgid ""
+"Enter the title here, if you want it formatted. It will overwrite the "
+"default title"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:132
+#: includes/src/Site/SidebarCustomizer.php:35
+msgid "Inner Content Sidebar"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:133
+msgid "Display widgets sidebar inside Site Content"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:142
+msgid "Site Content Background"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:143
+msgid "It overwrites Site Content background color, set up in Theme Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:147
+msgid "Site Footer Sidebar"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:148
+msgid ""
+"Display widgets sidebar inside Site Footer. It can comprise one or more "
+"columns of widgets"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:152
+msgid "Site Footer Below Area"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:153
+msgid "It includes Copyright text, Footer menu and Footer Social menu"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:157
+msgid "Meta description"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:158
+msgid "Enter meta description"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:184
+msgid "Masonry Archive Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:185
+msgid "Large size"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:186
+msgid "When possible, the item width is twice than masonry column width"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:191
+msgid "Spacing Around"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:192
+msgid "Add extra spacing around item on masonry layout"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:195
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:221
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:66
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:128
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:156
+#: includes/src/ThemeOptions/Config/MiscConfig.php:27
+msgid "None"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:196
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:97
+msgid "Small"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:197
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:98
+msgid "Medium"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:198
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:99
+msgid "Large"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:202
+msgid "Title font-size"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:203
+msgid "Enter font-size of the title on masonry layout (pixels)"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:233
+msgid "Custom sidebar"
+msgstr ""
+
+#: includes/src/Post/Options/Config/GenericPostOptionsConfig.php:234
+msgid "Choose a custom sidebar"
+msgstr ""
+
+#: includes/src/Post/Options/Config/PageOptionsConfig.php:63
+msgid "Page Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:43
+msgid "Product Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:45
+msgid "Product Image & Gallery"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:46
+msgid ""
+"Display Product Image & Product Thumbnails Gallery on Single Product Page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:51
+msgid "Product Header takes screen full width size"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:62
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:75
+msgid "Details Position"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:63
+msgid "Choose the position for Product Details"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:67
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:80
+msgid "Top"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:68
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:81
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:77
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:78
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:44
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:56
+msgid "Right"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:69
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:82
+msgid "Bottom"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:70
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:83
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:75
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:76
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:42
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:55
+msgid "Left"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:73
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:86
+msgid "Sticky Details"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:74
+msgid "Product Details are sticky while scrolling for Right and Left positions"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:79
+msgid "Product Video URL"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:80
+msgid ""
+"Enter Youtube or Vimeo video link here. Video shows up while clicking on "
+"Gallery Video button"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:81
+msgid "Thumbnails Gallery"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:82
+msgid "Enable Product Thumbnails Gallery near Product Main Image"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:87
+msgid "Thumbnails Gallery Position"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:88
+msgid "Choose the position for Product Thumbnails Gallery"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:92
+msgid "Horizontal"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:93
+msgid "Vertical"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:96
+msgid "Thumbnails Gallery Slides"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:97
+msgid "Choose the number of slides for Product Thumbnails Gallery"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:109
+msgid "Thumbnails Gallery Navigation"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:110
+msgid "Add navigation buttons to Product Thumbnails Gallery"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProductOptionsConfig.php:127
+msgid "Hover Image"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:52
+msgid "Project Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:54
+msgid "Choose how the project images will be displayed"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:57
+msgid "Masonry"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:58
+msgid "Carousel"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:62
+msgid "Project Header takes screen full width size"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:66
+msgid "Upload"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:67
+msgid "Choose images for your projects"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:76
+msgid "Choose the position for Project Details"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:87
+msgid "Project Details are sticky while scrolling for Right and Left positions"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:91
+msgid "Project Date"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:92
+msgid "Set up the date for project"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:94
+msgid "Project short description"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:95
+msgid "Enter the project description here"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:109
+msgid "Masonry Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:110
+msgid "Number of columns"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:111
+msgid "Choose the number of columns the project gallery will display"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:122
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:55
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:68
+msgid "Columns spacing"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:123
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:56
+msgid "Enter the spacing between columns (pixels)"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:140
+msgid "Carousel Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:141
+msgid "Number of slides"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:142
+msgid "Choose the number of slides the carousel will display"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:153
+msgid "Slides spacing"
+msgstr ""
+
+#: includes/src/Post/Options/Config/ProjectOptionsConfig.php:154
+msgid "Enter the spacing between slides (pixels)"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:39
+msgid "Blog Options"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:40
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:58
+msgid "Display"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:41
+msgid "The type of posts cards"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:46
+msgid "Overlay transparency (%)"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:47
+msgid "Overlay color transparency while hovering by mouse"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:50
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:63
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:120
+msgid "Columns"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:51
+msgid "Choose how many columns of posts to showcase"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:62
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:112
+msgid "Categories filter"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:63
+msgid "Decide if you want to display categories filter or not"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:67
+msgid "All categories"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:68
+msgid "Main categories"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:71
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:73
+msgid "Filter position"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:72
+msgid "Choose a position for Categories Filter"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:76
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:77
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:43
+msgid "Center"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:80
+msgid "Posts categories"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:81
+msgid "Filter posts by categories"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:84
+msgid "Posts tags"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:85
+msgid "Filter posts by tags"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:88
+msgid "Posts"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:89
+msgid "Choose posts you want to display (comma separated Posts IDs)"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:90
+msgid "Order by"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:91
+msgid "Select the field by which to order the posts"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:94
+#: templates/partials/single/project/elements/custom-fields.php:21
+msgid "Date"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:96
+msgid "Author"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:97
+msgid "Id"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:98
+msgid "Last modified date"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:99
+msgid "Parent id"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:102
+msgid "Order"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:103
+msgid "Select the display order"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:106
+msgid "Ascending"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:107
+msgid "Descending"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:110
+msgid "Number of posts per page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:111
+msgid "Select number of posts per page"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:118
+msgid "Additional content"
+msgstr ""
+
+#: includes/src/Post/Options/Config/Template/BlogTemplateOptionsConfig.php:119
+msgid "Enter additional content here, that is displayed below the blog"
+msgstr ""
+
+#: includes/src/Setup/PikartBaseOptionsPageConfigSetup.php:25
+#: includes/src/Setup/PikartBaseOptionsPageConfigSetup.php:41
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:133
+msgid "Product"
+msgstr ""
+
+#: includes/src/Setup/ThemeSetup.php:78
+msgid "Primary"
+msgstr ""
+
+#: includes/src/Setup/ThemeSetup.php:79
+msgid "Social Primary"
+msgstr ""
+
+#: includes/src/Setup/ThemeSetup.php:80
+msgid "Above Menu"
+msgstr ""
+
+#: includes/src/Setup/ThemeSetup.php:81
+msgid "Social Header Above"
+msgstr ""
+
+#: includes/src/Setup/ThemeSetup.php:82
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/src/Setup/ThemeSetup.php:83
+msgid "Social Footer Below"
+msgstr ""
+
+#: includes/src/Shop/ProductQuickViewInitializer.php:45
+msgid "Invalid input"
+msgstr ""
+
+#: includes/src/Shop/ShopSetup.php:249
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:46
+#: templates/partials/shop/article/elements/ribbons.php:28
+msgid "Sale"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:26
+msgid "Add a review"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:27
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:34
+#: templates/partials/forms/comment-form.php:9
+msgid "Name *"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:43
+#: templates/partials/forms/comment-form.php:17
+msgid "Email *"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:49
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:57
+#: templates/partials/forms/password-protected-form.php:21
+msgid "Submit"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:68
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:76
+msgid "Rate&hellip;"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:77
+msgid "Perfect"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:78
+msgid "Good"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:79
+msgid "Average"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:80
+msgid "Not that bad"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:81
+msgid "Very poor"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:87
+#: includes/src/Shop/ShopTemplateHelper.php:96
+msgid "Your rating"
+msgstr ""
+
+#: includes/src/Shop/ShopTemplateHelper.php:114
+msgid "Awaiting product image"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:48
+msgid "Typologies Display"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:60
+msgid "The way items are displayed"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:65
+msgid "Columns of items to display"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:71
+msgid "Spacing between columns (pixels)"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:81
+msgid "Animation effect"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:84
+msgid "Per unit"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:85
+msgid "Per whole"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:88
+msgid "Progress delay"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:89
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:99
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:138
+msgid "seconds"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:98
+msgid "Autoplay speed"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:105
+msgid "Additional Options"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:108
+msgid "Overlay color"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:111
+msgid "Overlay transparency"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:113
+msgid "percents (%)"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:118
+msgid "Text color skin"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:121
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:31
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:54
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:63
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:50
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:45
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:101
+#: includes/src/ThemeOptions/Config/HeaderMobileMenuConfig.php:36
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:44
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:45
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:34
+msgid "Light"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:122
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:32
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:55
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:64
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:51
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:46
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:102
+#: includes/src/ThemeOptions/Config/HeaderMobileMenuConfig.php:37
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:45
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:46
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:35
+msgid "Dark"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:125
+msgid "Animation"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:129
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigHelper.php:19
+msgid "Fade"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:130
+msgid "Fade From Up"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:131
+msgid "Fade From Right"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:132
+msgid "Fade From Down"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:133
+msgid "Fade From Left"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:134
+msgid "Zoom"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:137
+msgid "Animation delay"
+msgstr ""
+
+#: includes/src/Shortcode/Config/ShortcodesAttributesConfig.php:163
+msgid "Font size"
+msgstr ""
+
+#: includes/src/Site/PostLikesCustomizer.php:17
+#, php-format
+msgid "%s Like"
+msgstr ""
+
+#: includes/src/Site/SidebarCustomizer.php:33
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:91
+msgid "Archive Sidebar"
+msgstr ""
+
+#: includes/src/Site/SidebarCustomizer.php:34
+msgid "Header Sidebar"
+msgstr ""
+
+#: includes/src/Site/SidebarCustomizer.php:39
+msgid "Shop Filter Sidebar"
+msgstr ""
+
+#: includes/src/Site/SidebarCustomizer.php:54
+#, php-format
+msgid "Footer Sidebar Column %d"
+msgstr ""
+
+#: includes/src/Site/SidebarCustomizer.php:99
+msgid "Add widgets here."
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:21
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:76
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:169
+msgid "General"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:25
+msgid "_feature color"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:30
+msgid "_headings"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:44
+msgid "_body text"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:54
+msgid "_selection"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:66
+msgid "Buttons"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:70
+msgid "_text"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:75
+msgid "_text hover"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:80
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:104
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:43
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:35
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:39
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:30
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:90
+#: includes/src/ThemeOptions/Config/HeaderMobileMenuConfig.php:25
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:32
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:34
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:29
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:54
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:86
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:111
+msgid "_background"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ColorsConfig.php:85
+msgid "_background hover"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:30
+msgid "_if enabled, the Site Header is transparent"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:35
+msgid "_as secondary site navigation"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:38
+msgid "Archive Pages"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:39
+msgid "_Search, Categories, Tags & any archive page"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:43
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:27
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:73
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:79
+msgid "_display type"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:48
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:32
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:79
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:85
+msgid "_*hover color transparency (%)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:67
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:85
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:98
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:111
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:96
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:102
+msgid "_columns number"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:72
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:49
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:102
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:108
+msgid "_columns spacing (pixels)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:95
+#: includes/src/ThemeOptions/Config/FeaturedBrandingConfig.php:25
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:35
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:27
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:31
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:24
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:26
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:25
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:50
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:74
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:107
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:24
+msgid "Enabled"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:96
+msgid ""
+"_for displaying Widgets on Archive Pages (Search Page, Categories Page etc)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:99
+msgid "Related Items"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:100
+msgid "_Related Posts, Projects & Products"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:116
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:117
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:144
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:185
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:115
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:142
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:183
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:49
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:107
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:148
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:71
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:98
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:125
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:152
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:179
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:206
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:242
+msgid "_font-size (pixels)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:130
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:131
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:158
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:129
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:156
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:63
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:121
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:85
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:112
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:139
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:166
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:193
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:220
+msgid "_font-weight"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:140
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:168
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:166
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:73
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:131
+msgid "_letter-spacing (pixels)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:154
+msgid "_text transform"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:157
+msgid "Capitalize"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:158
+msgid "Uppercase"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ContentGeneralConfig.php:159
+msgid "Lowercase"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:25
+#: includes/src/ThemeOptions/Config/FeaturedBrandingConfig.php:29
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:39
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:31
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:35
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:26
+#: includes/src/ThemeOptions/Config/HeaderMobileMenuConfig.php:21
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:28
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:30
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:28
+msgid "Color style"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:29
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:52
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:61
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:48
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:43
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:99
+#: includes/src/ThemeOptions/Config/HeaderMobileMenuConfig.php:34
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:41
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:43
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:32
+msgid "_color skin"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:37
+msgid "Elements"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:41
+msgid "_title"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:42
+msgid "Error 404"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:46
+msgid "_subtitle"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:47
+msgid "Oops, this page can&rsquo;t be found"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:51
+msgid "_description"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:53
+msgid "The link might be corrupted or the page may have been removed"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:57
+msgid "_button"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:60
+msgid "_label"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:65
+msgid "_link"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ErrorPageConfig.php:66
+msgid "Button link"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FeaturedBrandingConfig.php:26
+msgid "_it automatically disables default branding"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FeaturedBrandingConfig.php:33
+msgid "_overlay color"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FeaturedBrandingConfig.php:42
+msgid "_overlay transparency (%)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FeaturedBrandingConfig.php:58
+#: includes/src/ThemeOptions/Config/ShopProductConfig.php:24
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:40
+#: includes/src/ThemeOptions/Config/SinglePageConfig.php:25
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:28
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:28
+msgid "Spacing"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FeaturedBrandingConfig.php:62
+msgid "_height (%)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FeaturedBrandingConfig.php:75
+#: includes/src/ThemeOptions/Config/MiscConfig.php:39
+msgid "Parallax"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FeaturedBrandingConfig.php:76
+msgid "_applied to Header Image"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:22
+msgid "All rights reserved"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:36
+msgid "_the area is displayed right below Sidebar"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:60
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:69
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:56
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:60
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:50
+msgid "Spacing (pixels)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:64
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:73
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:60
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:64
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:64
+msgid "_top & bottom"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:74
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:83
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:72
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:77
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:74
+msgid "_left & right"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:83
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:92
+msgid "Border top"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:87
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:96
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:85
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:93
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:38
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:63
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:95
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:120
+msgid "_color"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:96
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:105
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:94
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:102
+msgid "_width (pixels)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:107
+msgid "Copyright Area"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:140
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:138
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:206
+msgid "Menu"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterBelowAreaConfig.php:181
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:179
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:144
+msgid "Social menu"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:28
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:27
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:25
+msgid "_for displaying Widgets"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:44
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:35
+msgid "_background transparency (%)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:116
+msgid "Background Image"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/FooterSidebarConfig.php:124
+msgid "_number"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:22
+msgid "Free shipping for all the products"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:32
+msgid "_the area is displayed right above Header"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:81
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:89
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:113
+msgid "Border bottom"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderAboveAreaConfig.php:105
+msgid "Site Notice"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:51
+msgid "_light color skin"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:56
+msgid "_dark color skin"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:117
+msgid "Enable shadow"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:121
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:49
+msgid "Behaviour"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:125
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:53
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:25
+#: includes/src/ThemeOptions/Config/MiscConfig.php:25
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:285
+msgid "_type"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:127
+msgid "Regular"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:128
+msgid "Fixed"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderLayoutConfig.php:129
+msgid "Sticky"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:26
+msgid "Main menu"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:30
+msgid "_top & bottom spacing"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:40
+msgid "_position (valid for Logo Side)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderMenuConfig.php:86
+msgid "Submenus"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:25
+msgid "_enable Search Area for Site Header"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:55
+msgid "Covering header"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:56
+#: templates/partials/single/product/elements/header.php:40
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:60
+msgid "Text field"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:61
+msgid "Enter your keywords"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:62
+msgid "_type the search field \"label\" text"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSearchAreaConfig.php:63
+msgid "Search Label Text"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:54
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:44
+msgid "_width"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:86
+msgid "_enter the title for Sidebar"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:87
+msgid "Sidebar Title"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:91
+msgid "Menu icon"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/HeaderSidebarConfig.php:95
+msgid "_size"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:21
+msgid "Main navigation"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:27
+msgid "Logo Side"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:28
+msgid "Logo Center"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:29
+msgid "Logo Top"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:37
+msgid "_value (pixels)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:48
+msgid "_Site Header"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/LayoutConfig.php:49
+msgid "_Site Footer"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:21
+msgid "Site loading animation"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:28
+msgid "Bounce"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:29
+msgid "Pulse"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:30
+msgid "Wave"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:31
+msgid "Ocean"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:32
+msgid "Ball Pulse"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:33
+msgid "Ball Clip Rotate"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:34
+msgid "Ball Grid Pulse"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:35
+msgid "Ball Scale Multiple"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:43
+msgid "_speed value"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:51
+msgid "Scroll Top button"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/MiscConfig.php:52
+msgid "_it appears at the bottom of browser window"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:21
+msgid "Shop Icons Visibility"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:30
+msgid "Wishlist Icon"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:34
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:55
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:83
+msgid "_items background"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:43
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:64
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:92
+msgid "_items text"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:51
+msgid "Products Compare Icon"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:72
+msgid "My Account Icon"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:76
+msgid "Enable My Account Popup"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:79
+msgid "Cart Icon"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:100
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:106
+msgid "Cart Popup"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:104
+msgid "_cart icon link"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:107
+msgid "Cart Page"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:112
+msgid "Add to Cart Popup"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:114
+msgid ""
+"_if enabled, Cart Popup appears when Add to Cart is triggered on archives "
+"pages. This is effective just when Add to Cart does not redirect to the Cart "
+"Page"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:120
+msgid "Enable Products Search Mode"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:122
+msgid "_if you want search icon from Site Header to search just for products"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:131
+msgid "_Wislist"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:132
+msgid "_Products Compare"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:133
+msgid "_My Account"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopHeaderConfig.php:134
+msgid "_Cart"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:23
+msgid "Display options"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:68
+#: templates/partials/shop/elements/archive-toolbar.php:54
+msgid "Filter"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:72
+msgid "_columns"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:76
+msgid "Cross-sells Products"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:81
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:94
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:107
+msgid "_if enabled, slider plays automatically"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:89
+msgid "Upsells Products"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:102
+msgid "Related Products"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:116
+msgid "Catalog Mode"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductCatalogConfig.php:117
+msgid ""
+"_if enabled, it globally hides the price and Add to Cart button on Product "
+"Cards and Pages"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductConfig.php:28
+#: includes/src/ThemeOptions/Config/SinglePageConfig.php:29
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:32
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:32
+msgid "_left (pixels)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductConfig.php:41
+#: includes/src/ThemeOptions/Config/SinglePageConfig.php:41
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:45
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:46
+msgid "_right (pixels)"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductConfig.php:53
+#: includes/src/ThemeOptions/Config/SinglePageConfig.php:52
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:57
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:59
+msgid "Visibility"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductConfig.php:59
+msgid "_Related Products"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopProductConfig.php:60
+#: includes/src/ThemeOptions/Config/SinglePageConfig.php:58
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:147
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:70
+msgid "_Navigation"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:21
+#: templates/partials/shop/article/elements/ribbons.php:36
+msgid "Hot"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:70
+#: templates/partials/shop/article/elements/ribbons.php:40
+msgid "New"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:78
+msgid "_for products added less then number of days"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ShopRibbonsConfig.php:103
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SidebarConfig.php:53
+msgid "_position"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SinglePageConfig.php:57
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:146
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:69
+msgid "_Comments"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:69
+msgid "Related Posts"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:121
+msgid "All Posts Link"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:126
+msgid "Post Excerpt"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:130
+msgid "_words number"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:143
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:67
+msgid "_Tags"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:144
+msgid "_Author"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SinglePostConfig.php:145
+msgid "_Related Posts"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:68
+msgid "_Related Projects"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:75
+msgid "Related Projects"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SingleProjectConfig.php:127
+msgid "All Projects Link"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/SiteIdentityConfig.php:28
+msgid "Meta Description"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:80
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:136
+msgid "Header"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:88
+msgid "Footer"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:94
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:104
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:202
+msgid "Layout"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:113
+msgid "Colors"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:118
+msgid "Featured Branding"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:130
+msgid "Product Catalog"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:139
+msgid "Ribbons"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:151
+msgid "Typography"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:155
+msgid "Custom code"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:159
+msgid "Miscellaneous"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:173
+msgid "Post"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:178
+msgid "Project"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:182
+msgid "Page"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:186
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:214
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:233
+msgid "Sidebar"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:190
+msgid "404 Error Page"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:210
+msgid "Search Area"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:218
+msgid "Above Area"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:222
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigBase.php:237
+msgid "Below Area"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigHelper.php:18
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:287
+msgid "Default"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigHelper.php:20
+msgid "Pinned"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/ThemeOptionsConfigHelper.php:21
+msgid "Plain"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:25
+msgid "Headings"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:29
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:233
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:273
+msgid "_font-family"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:67
+msgid "H1"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:94
+msgid "H2"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:121
+msgid "H3"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:148
+msgid "H4"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:175
+msgid "H5"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:202
+msgid "H6"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:229
+msgid "Body text"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:256
+msgid "_line-height"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:269
+msgid "Site Header navigation"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:281
+msgid "Hover style"
+msgstr ""
+
+#: includes/src/ThemeOptions/Config/TypographyConfig.php:288
+msgid "Ball"
+msgstr ""
+
+#: includes/src/Widgets/RecentCommentsCustomWidget.php:90
+msgid "Recent Comments"
+msgstr ""
+
+#: includes/src/Widgets/RecentPostsCustomWidget.php:97
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGallery.php:77
+msgid "Open"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGallery.php:78
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:95
+msgid "Reset"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGallery.php:93
+msgid "Video URL"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGallery.php:94
+msgid "Enter Youtube or Vimeo link"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGalleryImage.php:68
+msgid "Select"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Admin/Media/CustomGalleryImage.php:70
+msgid "Remove"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Shortcode/ShortcodeFieldConfigBuilder.php:49
+msgid "Enter color code"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Shortcode/ShortcodeFieldConfigBuilder.php:52
+msgid "Select color"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/Shortcode/ShortcodeFieldConfigBuilder.php:214
+msgid "CSS Class"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/GoogleFontsHelper.php:157
+msgid "Invalid font. Retype it carefully again."
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/GoogleFontsHelper.php:183
+msgid "Font already exists. See font family dropdown-lists"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/GoogleFontsHelper.php:199
+msgid "Please add only one font at once"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/GoogleFontsHelper.php:209
+msgid "Font was added. See font family dropdown-lists"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:23
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:24
+msgid "_example: Ubuntu+Mono:400,400i,700"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:29
+msgid "Add font"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:41
+msgid "Logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:52
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:81
+msgid "Inverted Logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:71
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:74
+msgid "Select inverted logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:72
+msgid "Change inverted logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:73
+msgid "No inverted logo selected"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:75
+msgid "Choose inverted logo"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:96
+msgid "Reset Theme Options"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:97
+msgid "_reset all the custom Theme Options to default values"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:108
+msgid "JavaScript Header"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:111
+msgid "JavaScript Footer "
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:126
+msgid "Copy"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:127
+msgid "Copy Parent Theme Options"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsConfigHelper.php:128
+msgid "_copy all the custom Parent Theme Options"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsCoreUtil.php:248
+msgid "Are you sure you want to reset all theme customizations?"
+msgstr ""
+
+#: includes/vendor/pikart/wp-core/src/ThemeOptions/ThemeOptionsCoreUtil.php:308
+msgid ""
+"Are you sure you want to copy all parent theme customizations? This will "
+"override all the child theme customizer options?"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:334
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:335
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:337
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:339
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:340
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:343
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:349
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:355
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:361
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:367
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:373
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:378
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:383
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:388
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:392
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:393
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:920
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2626
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3677
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:827
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3584
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:394
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3252
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:395
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3045
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:397
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:399
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:401
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:402
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:403
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:404
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:607
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:608
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:1027
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:1027
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:1030
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:1030
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:1214
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3041
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:1121
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2075
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2366
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2369
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2385
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2388
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2391
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2408
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2412
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2414
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2420
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2423
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2426
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2435
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2481
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2485
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2489
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2493
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2575
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2583
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2591
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2603
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2626
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2640
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2641
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2646
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2647
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2696
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2701
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2707
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2777
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2810
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2816
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2819
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2850
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2852
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2893
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:2895
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3001
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3027
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3251
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3591
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3594
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3596
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3600
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3602
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3603
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3605
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3608
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3610
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3611
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3613
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3617
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3524
+msgid "Show Details"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation-original.php:3617
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3524
+msgid "Hide Details"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search for"
+msgstr ""
+
+#: templates/partials/blog/article/elements/content-card.php:29
+#: templates/partials/single/post/elements/related-posts.php:82
+msgid "Read more"
+msgstr ""
+
+#: templates/partials/blog/elements/archive-filter.php:17
+#: templates/shortcodes/pikart/common/categories-filter.php:22
+msgid "Show all"
+msgstr ""
+
+#: templates/partials/blog/elements/navigation.php:12
+#: templates/partials/main-archive/navigation.php:10
+msgid "Blog navigation"
+msgstr ""
+
+#: templates/partials/comments/navigation.php:7
+msgid "Comment navigation"
+msgstr ""
+
+#: templates/partials/comments/walker/comment-content.php:20
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: templates/partials/comments/walker/comment-content.php:30
+msgid "Edit"
+msgstr ""
+
+#: templates/partials/comments/walker/comment-content.php:50
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/partials/featured-branding/branding.php:20
+#: templates/partials/main-archive/no-results.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/partials/footer/menu-social.php:8
+#: templates/partials/header/above-area/menu-social.php:8
+#: templates/partials/header/menus/menu-social.php:9
+#: templates/partials/header/mobile.php:47
+msgid "Social"
+msgstr ""
+
+#: templates/partials/forms/comment-form.php:25
+msgid "Website"
+msgstr ""
+
+#: templates/partials/forms/comment-form.php:32
+msgid "Your thoughts..."
+msgstr ""
+
+#: templates/partials/forms/comment-form.php:38
+msgid "Your email address will not be published. Fill up required fields *"
+msgstr ""
+
+#: templates/partials/forms/comment-form.php:42
+msgid "Leave a Reply"
+msgstr ""
+
+#: templates/partials/forms/comment-form.php:50
+msgid "Submit comment"
+msgstr ""
+
+#: templates/partials/forms/password-protected-form.php:16
+msgid "This area is password protected. To view it please enter the password."
+msgstr ""
+
+#: templates/partials/forms/searchform-alt.php:25
+msgid "Type anything to search, then press enter or Search Button"
+msgstr ""
+
+#: templates/partials/header/popups/my-account-popup.php:26
+msgid "Create an Account"
+msgstr ""
+
+#: templates/partials/header/popups/shop-cart-popup-details.php:13
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: templates/partials/header/popups/shop-cart-popup-details.php:18
+msgid "Return to shop"
+msgstr ""
+
+#: templates/partials/header/popups/shop-cart-popup.php:14
+msgid "Shopping Cart"
+msgstr ""
+
+#: templates/partials/header/popups/shop-cart-popup.php:17
+#: templates/partials/header/sidebar/inner-content.php:23
+msgid "Close"
+msgstr ""
+
+#: templates/partials/header/shop-icons/account-mobile.php:15
+msgid "My account"
+msgstr ""
+
+#: templates/partials/header/shop-icons/account.php:18
+msgid "Account"
+msgstr ""
+
+#: templates/partials/header/shop-icons/products-compare-mobile.php:15
+#: templates/partials/header/shop-icons/products-compare-mobile.php:16
+#: templates/partials/header/shop-icons/products-compare.php:16
+msgid "Products Compare"
+msgstr ""
+
+#: templates/partials/header/shop-icons/shop-cart.php:16
+msgid "Cart"
+msgstr ""
+
+#: templates/partials/header/shop-icons/wishlist-mobile.php:18
+#: templates/partials/header/shop-icons/wishlist.php:18
+msgid "Wishlist"
+msgstr ""
+
+#: templates/partials/main-archive/navigation.php:17
+#: templates/woocommerce/compatibility/3.2/loop/pagination.php:33
+#: templates/woocommerce/loop/pagination.php:39
+msgid "Previous"
+msgstr ""
+
+#: templates/partials/main-archive/navigation.php:34
+#: templates/woocommerce/compatibility/3.2/loop/pagination.php:60
+#: templates/woocommerce/loop/pagination.php:67
+msgid "Next"
+msgstr ""
+
+#: templates/partials/main-archive/no-results.php:26
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: templates/partials/main-archive/no-results.php:28
+msgid "Get started here"
+msgstr ""
+
+#: templates/partials/main-archive/no-results.php:36
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/partials/main-archive/no-results.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/partials/shop/article/elements/products-compare-area.php:13
+msgid "View Compare"
+msgstr ""
+
+#: templates/partials/shop/article/elements/products-compare-area.php:13
+msgid "Compare"
+msgstr ""
+
+#: templates/partials/shop/article/elements/quick-view-button.php:17
+msgid "Quick View"
+msgstr ""
+
+#: templates/partials/shop/article/elements/ribbons.php:44
+msgid "Out of stock"
+msgstr ""
+
+#: templates/partials/shop/article/elements/wishlist-area.php:19
+msgid "Browse Wishlist"
+msgstr ""
+
+#: templates/partials/shop/article/elements/wishlist-area.php:19
+#: templates/partials/single/product/elements/wishlist-area.php:25
+msgid "Add to Wishlist"
+msgstr ""
+
+#: templates/partials/single/addthis-social-share.php:21
+msgid "Share:"
+msgstr ""
+
+#: templates/partials/single/attachment/elements/navigation.php:3
+msgid "Previous attachment"
+msgstr ""
+
+#: templates/partials/single/attachment/elements/navigation.php:4
+msgid "Next attachment"
+msgstr ""
+
+#: templates/partials/single/attachment/elements/navigation.php:5
+msgid "All Attachments"
+msgstr ""
+
+#: templates/partials/single/attachment/elements/text-alt.php:9
+msgid "Alternative text"
+msgstr ""
+
+#: templates/partials/single/navigation.php:4
+msgid "Previous item"
+msgstr ""
+
+#: templates/partials/single/navigation.php:5
+msgid "Next item"
+msgstr ""
+
+#: templates/partials/single/navigation.php:6
+msgid "All Items"
+msgstr ""
+
+#: templates/partials/single/page/elements/navigation.php:3
+msgid "Previous page"
+msgstr ""
+
+#: templates/partials/single/page/elements/navigation.php:4
+msgid "Next page"
+msgstr ""
+
+#: templates/partials/single/page/elements/navigation.php:5
+msgid "All Pages"
+msgstr ""
+
+#: templates/partials/single/post/elements/author.php:19
+msgid "About the author: "
+msgstr ""
+
+#: templates/partials/single/post/elements/author.php:32
+msgid "Discover more posts by "
+msgstr ""
+
+#: templates/partials/single/post/elements/branding-meta.php:11
+msgid "By "
+msgstr ""
+
+#: templates/partials/single/post/elements/branding-meta.php:39
+#, php-format
+msgid "%s Comment"
+msgstr ""
+
+#: templates/partials/single/post/elements/navigation.php:6
+msgid "Previous post"
+msgstr ""
+
+#: templates/partials/single/post/elements/navigation.php:7
+msgid "Next post"
+msgstr ""
+
+#: templates/partials/single/post/elements/navigation.php:8
+msgid "All Posts"
+msgstr ""
+
+#: templates/partials/single/post/elements/related-posts.php:26
+msgid "Related posts"
+msgstr ""
+
+#: templates/partials/single/product/elements/details-metadata.php:7
+#: templates/partials/single/product/elements/details-metadata.php:20
+msgid "N/A"
+msgstr ""
+
+#: templates/partials/single/product/elements/details-metadata.php:15
+msgid "SKU Number:"
+msgstr ""
+
+#: templates/partials/single/product/elements/details-metadata.php:28
+msgid "Category:"
+msgstr ""
+
+#: templates/partials/single/product/elements/header.php:33
+msgid "Video"
+msgstr ""
+
+#: templates/partials/single/product/elements/navigation.php:5
+msgid "Previous product"
+msgstr ""
+
+#: templates/partials/single/product/elements/navigation.php:6
+msgid "Next product"
+msgstr ""
+
+#: templates/partials/single/product/elements/navigation.php:7
+msgid "Shop"
+msgstr ""
+
+#: templates/partials/single/product/elements/products-compare-area.php:20
+msgid "Compare Products"
+msgstr ""
+
+#: templates/partials/single/project/elements/branding-meta.php:28
+#, php-format
+msgid "%d Comment"
+msgstr ""
+
+#: templates/partials/single/project/elements/navigation.php:6
+msgid "Previous project"
+msgstr ""
+
+#: templates/partials/single/project/elements/navigation.php:7
+msgid "Next project"
+msgstr ""
+
+#: templates/partials/single/project/elements/navigation.php:8
+msgid "All Projects"
+msgstr ""
+
+#: templates/partials/single/project/elements/related-projects.php:27
+msgid "Related projects"
+msgstr ""
+
+#: templates/partials/single/tags.php:2
+msgid "Tags:"
+msgstr ""
+
+#: templates/partials/widgets/recent-comments/comment-row.php:12
+msgid "on"
+msgstr ""
+
+#: templates/partials/woocommerce/checkout/form-checkout.php:11
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: templates/partials/woocommerce/checkout/form-checkout.php:37
+msgid "Your order"
+msgstr ""
+
+#: templates/partials/woocommerce/content-product-cat.php:50
+#, php-format
+msgid "%s product"
+msgstr ""
+
+#: templates/partials/woocommerce/content-widget-reviews.php:11
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: templates/partials/woocommerce/global/quantity-input.php:14
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: templates/partials/woocommerce/global/quantity-input.php:18
+msgid "Quantity"
+msgstr ""
+
+#: templates/partials/woocommerce/product-searchform.php:11
+msgid "Search for:"
+msgstr ""
+
+#: templates/partials/woocommerce/product-searchform.php:16
+msgid "Search products&hellip;"
+msgstr ""
+
+#: templates/partials/woocommerce/single-product-reviews.php:41
+msgid "There are no reviews yet."
+msgstr ""
+
+#: templates/partials/woocommerce/single-product-reviews.php:63
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: templates/partials/woocommerce/single-product/meta.php:13
+msgid "Product Tags:"
+msgstr ""
+
+#: templates/partials/woocommerce/single-product/related.php:26
+msgid "Related products"
+msgstr ""
+
+#: templates/partials/woocommerce/single-product/review-meta.php:11
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: templates/partials/woocommerce/single-product/review-meta.php:22
+msgid "verified owner"
+msgstr ""
+
+#: templates/woocommerce/compatibility/3.2/loop/pagination.php:26
+#: templates/woocommerce/loop/pagination.php:32
+msgid "Shop navigation"
+msgstr ""

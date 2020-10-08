@@ -1,0 +1,22 @@
+2020-09-20T04:21:58+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /home/dfairwea/public_html/wp-content/plugins/theme-editor/app/controller/theme_controller.php:437
+Stack trace:
+#0 /home/dfairwea/public_html/wp-content/plugins/theme-editor/app/controller/theme_controller.php(404): te\app\thm_cnt\theme_editor_theme_controller::compress('/home/dfairwea/...', 'anotte-wp.zip')
+#1 /home/dfairwea/public_html/wp-content/plugins/theme-editor/app/controller/controller.php(114): te\app\thm_cnt\theme_editor_theme_controller->download_theme('anotte-wp')
+#2 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(287): te\app\cnt\theme_editor_controller->download_te_theme('')
+#3 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/dfairwea/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/dfairwea/public_html/wp-admin/admin-post.php(70): do_action('admin_post_mk_t...')
+#6 {main}
+  thrown in /home/dfairwea/public_html/wp-content/plugins/theme-editor/app/controller/theme_controller.php on line 437
+
+2020-09-20T04:22:19+00:00 CRITICAL Uncaught Error: Class 'ZipArchive' not found in /home/dfairwea/public_html/wp-content/plugins/theme-editor/app/controller/theme_controller.php:437
+Stack trace:
+#0 /home/dfairwea/public_html/wp-content/plugins/theme-editor/app/controller/theme_controller.php(404): te\app\thm_cnt\theme_editor_theme_controller::compress('/home/dfairwea/...', 'anotte-wp.zip')
+#1 /home/dfairwea/public_html/wp-content/plugins/theme-editor/app/controller/controller.php(114): te\app\thm_cnt\theme_editor_theme_controller->download_theme('anotte-wp')
+#2 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(287): te\app\cnt\theme_editor_controller->download_te_theme('')
+#3 /home/dfairwea/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/dfairwea/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/dfairwea/public_html/wp-admin/admin-post.php(70): do_action('admin_post_mk_t...')
+#6 {main}
+  thrown in /home/dfairwea/public_html/wp-content/plugins/theme-editor/app/controller/theme_controller.php on line 437
+

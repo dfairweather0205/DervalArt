@@ -1,0 +1,6 @@
+/*------------------------------------*\
+    Advanced Custom Fields
+    RTL
+\*------------------------------------*/
+.setting.columns-spacing input[type='number'] {
+    float: right; }
